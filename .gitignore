@@ -1,2 +1,4 @@
 # .gitignore
-package.json
+# package.json
+.npm-cache
+node_modules

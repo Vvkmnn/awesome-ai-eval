@@ -1,0 +1,24 @@
+{
+  "name": "awesome-ai-eval",
+  "version": "1.0.0",
+  "description": "Curated resources for evaluating LLMs, RAG systems, and agents.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "awesome-lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vvkmnn/awesome-ai-eval.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "CC0-1.0",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Vvkmnn/awesome-ai-eval/issues"
+  },
+  "homepage": "https://github.com/Vvkmnn/awesome-ai-eval#readme",
+  "devDependencies": {
+    "awesome-lint": "^2.2.2"
+  }
+}

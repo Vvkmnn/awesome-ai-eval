@@ -1,225 +1,227 @@
-# awesome-ai-eval
+# Awesome AI Eval [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+> A curated list of tools, methods & platforms for evaluating AI quality in real applications.
 
-Curated tools, frameworks, benchmarks, and observability platforms for evaluating LLMs, RAG systems, and agents and mitigate hallucination.
+<img src="./assets/robot-shades.svg" align="right" width="150" alt="Awesome AI Eval robot logo" />
+
+A curated list of tools, frameworks, benchmarks, and observability platforms for evaluating LLMs, RAG pipelines, and autonomous agents to minimize hallucinations & evaluate practical performance in real production environments.
 
 ---
 
 ## Contents
 
-- [1. Evaluators & Test Harnesses](#1-evaluators--test-harnesses)
-- [2. RAG & Retrieval Evaluation](#2-rag--retrieval-evaluation)
-- [3. Benchmarks & Leaderboards](#3-benchmarks--leaderboards)
-- [4. Observability & Experimentation Platforms](#4-observability--experimentation-platforms)
-- [5. Prompt & Prompt-System Evaluation](#5-prompt--prompt-system-evaluation)
-- [6. Datasets, Papers & Methodology](#6-datasets-papers--methodology)
-- [7. Starter Kits & Example Apps](#7-starter-kits--example-apps)
-- [8. Related Awesome Lists & Collections](#8-related-awesome-lists--collections)
+- [Tools](#tools)
+  - [Evaluators and Test Harnesses](#evaluators-and-test-harnesses)
+  - [RAG and Retrieval](#rag-and-retrieval)
+  - [Prompt Evaluation & Safety](#prompt-evaluation--safety)
+  - [Datasets and Methodology](#datasets-and-methodology)
+- [Platforms](#platforms)
+  - [Open Source Platforms](#open-source-platforms)
+  - [Hosted Platforms](#hosted-platforms)
+  - [Cloud Platforms](#cloud-platforms)
+- [Benchmarks](#benchmarks)
+  - [General](#general)
+  - [Domain](#domain)
+  - [Agent](#agent)
+  - [Safety](#safety)
+- [Leaderboards](#leaderboards)
+- [Resources](#resources)
+  - [Guides & Training](#guides--training)
+  - [Examples](#examples)
+  - [Related Collections](#related-collections)
+- [Licensing](#licensing)
 
 ---
 
-## 1. Evaluators & Test Harnesses
 
-General-purpose frameworks you wire into your CI/CD, eval jobs, or offline experiments. Most support “LLM-as-a-judge” and custom metrics.
+## Tools
 
-### 1.1 Core evaluation frameworks
+### Evaluators and Test Harnesses
 
-- [DeepEval](https://github.com/confident-ai/deepeval) – Python framework for unit-testing LLM apps with 50+ research-backed metrics (hallucinations, coherence, toxicity, etc.). Integrates tightly with Confident AI’s hosted platform.
-- [Ragas](https://github.com/explodinggradients/ragas) – End-to-end evaluation framework focused on LLM apps and RAG pipelines; supports LangChain, LlamaIndex, and custom graphs.
-- [TruLens](https://github.com/truera/trulens) – Stack-agnostic eval and tracing for LLM apps and agents; “feedback functions” let you define custom quality metrics.
-- [OpenAI Evals](https://github.com/openai/evals) – Official framework and registry for benchmarking LLMs and LLM-based systems; used internally by OpenAI and the community.
-- [Promptfoo](https://github.com/promptfoo/promptfoo) – Local-first CLI and dashboard for evaluating prompts, RAG flows, and agents; integrates with GitHub Actions and CI.
-- [MLflow](https://github.com/mlflow/mlflow) – Experiment-tracking framework with support for generative/LLM evaluation via the Eval API and custom evaluators.
-- [Prompt Flow](https://github.com/microsoft/promptflow) – Microsoft’s flow-based LLM dev toolkit; includes evaluation flows and metrics for both local and Azure AI Studio workflows.
-- [ZenML](https://github.com/zenml-io/zenml) – LLMOps platform that bakes evaluation into pipelines; supports retrieval, generation, and end-to-end app evaluation.
-- [W&B Weave Evaluations](https://wandb.ai/site/evaluations/) – Evaluation framework on top of Weights & Biases for LLM apps, with datasets, scoring functions, and dashboards.
-- [LLMbench (tooling)](https://www.deepchecks.com/llm-evaluation/best-tools/) – Emerging benchmarking tools branded as LLMbench for standardized tests across models and prompts (multiple OSS + commercial variants exist).
+#### Core Frameworks
 
-### 1.2 Application- and agent-level harnesses
+- [ColossalEval](https://github.com/hpcaitech/ColossalAI/tree/main/applications/ColossalEval) - Unified pipeline for classic metrics plus GPT-assisted scoring across public datasets.
+- [DeepEval](https://github.com/confident-ai/deepeval) - Python unit-test style metrics for hallucination, relevance, toxicity, and bias.
+- [Hugging Face lighteval](https://github.com/huggingface/lighteval) - Toolkit powering HF leaderboards with 1k+ tasks and pluggable metrics.
+- [Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai) - UK AI Safety Institute framework for scripted eval plans, tool calls, and model-graded rubrics.
+- [MLflow Evaluators](https://github.com/mlflow/mlflow) - Eval API that logs LLM scores next to classic experiment tracking runs.
+- [OpenAI Evals](https://github.com/openai/evals) - Reference harness plus registry spanning reasoning, extraction, and safety evals.
+- [OpenCompass](https://github.com/open-compass/opencompass) - Research harness with CascadeEvaluator, CompassRank syncing, and LLM-as-judge utilities.
+- [Prompt Flow](https://github.com/microsoft/promptflow) - Flow builder with built-in evaluation DAGs, dataset runners, and CI hooks.
+- [Promptfoo](https://github.com/promptfoo/promptfoo) - Local-first CLI and dashboard for evaluating prompts, RAG flows, and agents.
+- [Ragas](https://github.com/explodinggradients/ragas) - Evaluation library that grades answers, context, and grounding with pluggable scorers.
+- [TruLens](https://github.com/truera/trulens) - Feedback function framework for chains and agents with customizable judge models.
+- [W&B Weave Evaluations](https://wandb.ai/site/evaluations/) - Managed evaluation orchestrator with dataset versioning and dashboards.
+- [ZenML](https://github.com/zenml-io/zenml) - Pipeline framework that bakes evaluation steps and guardrail metrics into LLM workflows.
 
-- [LangSmith](https://smith.langchain.com/) – Hosted platform for tracing, evaluation, and dataset-based regression testing for LangChain apps and agents.
-- [Braintrust](https://www.braintrust.dev/) – Evaluation and observability layer with trace-driven agent evals, GitHub Actions integration, and CI-style regression tests.
-- [Deepchecks LLM Evaluation](https://www.deepchecks.com/) – End-to-end evaluation platform with SDK, dashboards, and built-in metrics; integrates with popular LLM stacks.
-- [Opik](https://github.com/comet-ml/opik) – Open-source evaluation + observability platform for LLM apps; supports traces, datasets, metrics, and dashboards.
-- [Langfuse](https://github.com/langfuse/langfuse) – OSS LLM engineering platform with tracing, evals, prompt management, and metrics for any framework.
-- [Arize Phoenix](https://github.com/Arize-ai/phoenix) – AI observability and evaluation toolkit built on OpenTelemetry; supports LLMs, RAG, and agents.
-- [OpenLIT](https://github.com/openlit/openlit) – OpenTelemetry-native observability and evaluation for LLM apps with built-in hallucination/bias/toxicity metrics.
-- [Maxim AI](https://www.getmaxim.ai/) – Hosted eval and observability platform focusing on simulation, LLM-as-a-judge, and agent-centric workflows.
-- [Humanloop](https://humanloop.com/) – Production platform for prompt management, evals, and data collection with human feedback loops.
-- [Galileo GenAI Studio](https://www.rungalileo.io/product/genai-studio) – Evaluation and error analysis for LLM outputs, with labeling and data curation features.
+#### Application and Agent Harnesses
 
----
+- [Braintrust](https://www.braintrust.dev/) - Hosted evaluation workspace with CI-style regression tests and agent sandboxes.
+- [LangSmith](https://smith.langchain.com/) - Hosted tracing plus datasets, batched evals, and regression gating for LangChain apps.
+- [W&B Prompt Registry](https://docs.wandb.ai/weave/guides/core-types/evaluations) - Prompt evaluation templates with reproducible scoring and reviews.
 
-## 2. RAG & Retrieval Evaluation
+### RAG and Retrieval
 
-Frameworks, datasets, and tools specifically targeting retrieval-augmented generation (RAG).
+#### RAG Frameworks
 
-### 2.1 RAG evaluation frameworks
+- [EvalScope RAG](https://evalscope.readthedocs.io/en/latest/blog/RAG/RAG_Evaluation.html) - Guides and templates that extend Ragas-style metrics with domain rubrics.
+- [LlamaIndex Evaluation](https://docs.llamaindex.ai/en/stable/understanding/evaluating/index.html) - Modules for replaying queries, scoring retrievers, and comparing query engines.
+- [Open RAG Eval](https://github.com/vectara/open-rag-eval) - Vectara harness with pluggable datasets for comparing retrievers and prompts.
+- [RAGEval](https://github.com/OpenBMB/RAGEval) - Framework that auto-generates corpora, questions, and RAG rubrics for completeness.
+- [R-Eval](https://github.com/THU-KEG/R-Eval) - Toolkit for robust RAG scoring aligned with the Evaluation of RAG survey taxonomy.
 
-- [Ragas](https://github.com/explodinggradients/ragas) – Core RAG eval toolkit: context precision/recall, answer faithfulness, answer relevance, and pipeline-level metrics.
-- [RAGEval](https://github.com/OpenBMB/RAGEval) – Scenario-specific RAG evaluation framework that auto-generates documents, questions, and metrics (Completeness/Hallucination/Irrelevance).
-- [Open RAG Eval](https://github.com/vectara/open-rag-eval) – Vectara’s open framework for comparing RAG pipelines with standard metrics and ready-made datasets.
-- [R-Eval](https://github.com/THU-KEG/R-Eval) – Toolkit for robust RAG evaluation, aligned with the “Evaluation of Retrieval-Augmented Generation” survey.
-- [EvalScope RAG](https://evalscope.readthedocs.io/en/latest/blog/RAG/RAG_Evaluation.html) – RAG evaluation guide and tools built on top of Ragas and related work.
-- [LlamaIndex Evaluation](https://docs.llamaindex.ai/en/stable/understanding/evaluating/index.html) – Evaluation modules for LlamaIndex pipelines (retrieval, query engines, and agents).
+#### Retrieval Benchmarks
 
-### 2.2 Retrieval & search quality
+- [BEIR](https://github.com/beir-cellar/beir) - Benchmark suite covering dense, sparse, and hybrid retrieval tasks.
+- [ColBERT](https://github.com/stanford-futuredata/ColBERT) - Late-interaction dense retriever with evaluation scripts for IR datasets.
+- [MTEB](https://github.com/embeddings-benchmark/mteb) - Embeddings benchmark measuring retrieval, reranking, and similarity quality.
 
-- [BEIR](https://github.com/beir-cellar/beir) – Large-scale evaluation benchmark for retrieval models across diverse tasks and domains.
-- [MTEB](https://github.com/embeddings-benchmark/mteb) – Massive text embeddings benchmark with retrieval and semantic similarity tasks useful for RAG retrievers.
-- [ColBERT and ColBERTv2](https://github.com/stanford-futuredata/ColBERT) – Late-interaction dense retrieval framework with evaluation scripts for IR benchmarks.
+#### RAG Datasets and Surveys
 
-### 2.3 RAG-specific datasets & surveys
+- [Awesome-RAG-Evaluation](https://github.com/YHPeter/Awesome-RAG-Evaluation) - Curated catalog of RAG evaluation metrics, datasets, and leaderboards.
+- [RAG Evaluation Survey](https://arxiv.org/abs/2405.07437) - Comprehensive paper covering metrics, judgments, and open problems for RAG.
+- [RAGTruth](https://github.com/zhengzangw/RAGTruth) - Human-annotated dataset for measuring hallucinations and faithfulness in RAG answers.
 
-- [Awesome-RAG-Evaluation](https://github.com/YHPeter/Awesome-RAG-Evaluation) – Curated survey repo for RAG evaluation benchmarks and metrics.
-- [RAG Evaluation Survey](https://arxiv.org/abs/2405.07437) – Comprehensive survey of RAG evaluation frameworks and metrics.
-- [RAG evaluation papers in Awesome-RAG](https://github.com/liunian-Jay/Awesome-RAG) – Section collecting RAG eval papers such as RAGEval, MEMERAG, and others.
+### Prompt Evaluation & Safety
 
----
+- [AlpacaEval](https://github.com/tatsu-lab/alpaca_eval) - Automated instruction-following evaluator with length-controlled LLM judge scoring.
+- [ChainForge](https://github.com/ianarawjo/ChainForge) - Visual IDE for comparing prompts, sampling models, and scoring batches with rubrics.
+- [Guardrails AI](https://github.com/ShreyaR/guardrails) - Declarative validation framework that enforces schemas, correction chains, and judgments.
+- [Lakera Guard](https://www.lakera.ai/guard) - Hosted prompt security platform with red-team datasets for jailbreak and injection testing.
+- [PromptBench](https://github.com/microsoft/promptbench) - Benchmark suite for adversarial prompt stress tests across diverse tasks.
+- [Red Teaming Handbook](https://learn.microsoft.com/en-us/security/) - Microsoft playbook for adversarial prompt testing and mitigation patterns.
 
-## 3. Benchmarks & Leaderboards
+### Datasets and Methodology
 
-Reusable benchmarks and leaderboards for foundation models, code, safety, and multi-agent systems.
-
-### 3.1 General LLM benchmarks
-
-- [OpenAI Evals registry](https://github.com/openai/evals/tree/main/evals/elsuite) – Collection of community‐contributed evals across reasoning, QA, safety, etc.
-- [BigBench / BIG-bench](https://github.com/google/BIG-bench) – Large, diverse benchmark suite for language models.
-- [HELM](https://crfm.stanford.edu/helm/latest/) – Holistic Evaluation of Language Models: multi-metric benchmark across many tasks and scenarios.
-- [LLM-Perf / lm-eval-harness](https://github.com/EleutherAI/lm-evaluation-harness) – Standard harness for evaluating autoregressive LMs on classic and new benchmarks.
-
-### 3.2 Agent & tool-use benchmarks
-
-- [AgentBench](https://github.com/THUDM/AgentBench) – Comprehensive benchmark for evaluating LLMs as agents across 8+ simulated environments.
-- [GAIA](https://github.com/GAIA-benchmark/GAIA) – “General AI Assistants” benchmark: tool-use and reasoning tasks that require web access and multi-step planning.
-- [MetaTool](https://github.com/meta-llama/MetaTool) – Tool-use benchmark and eval harness for Llama-based tool-calling models.
-- [LLM Agents Benchmark Collections](https://llmbench.ai/) – Aggregated benchmarks focused on agent safety, reliability, and decision-making.
-
-### 3.3 Safety, robustness & bias
-
-- [Holistic Safety Evaluation (OpenAI/Anthropic style)](https://github.com/centerforaisafety/harmbench) – Benchmarks targeting harmful content, jailbreaks, and safety alignment.
-- [ToxiGen](https://github.com/microsoft/ToxiGen) – Benchmark and dataset for measuring toxicity in language models.
-- [BBQ (Bias Benchmark for QA)](https://github.com/nyu-mll/BBQ) – Benchmark for social bias in QA tasks.
-- [Safety Benchmarks via Azure Content Safety & Bedrock Guardrails docs](https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/observability) – Evaluation workflows for safety and risk.
-
-### 3.4 Code & math benchmarks
-
-- [HumanEval](https://github.com/openai/human-eval) – Classic code generation benchmark for function-synthesis tasks.
-- [MBPP](https://github.com/google-research/google-research/tree/master/mbpp) – “Mostly Basic Programming Problems” benchmark.
-- [LeetCode-style eval collections](https://github.com/alopatenko/LLMEvaluation) – Index of code-oriented LLM evaluation benchmarks such as LLMeBench and LM-PUB-QUIZ.
+- [Deepchecks Evaluation Playbook](https://www.deepchecks.com/llm-evaluation/best-tools/) - Survey of evaluation metrics, failure modes, and platform comparisons.
+- [HELM](https://crfm.stanford.edu/helm/latest/) - Holistic Evaluation of Language Models methodology emphasizing multi-criteria scoring.
+- [Instruction-Following Evaluation (IFEval)](https://github.com/google-research/google-research/tree/master/instruction_following_eval) - Constraint-verification prompts for automatically checking instruction compliance.
+- [OpenAI Cookbook Evals](https://github.com/openai/openai-cookbook/tree/main/examples/evals) - Practical notebooks showing how to build custom evals.
+- [Safety Evaluation Guides](https://learn.microsoft.com/en-us/azure/ai-studio/concepts/safety-evaluations) - Cloud vendor recipes for testing quality, safety, and risk.
+- [Who Validates the Validators?](https://arxiv.org/abs/2404.12272) - EvalGen workflow aligning LLM judges with human rubrics via mixed-initiative criteria design.
+- [ZenML Evaluation Playbook](https://www.zenml.io/blog/the-evaluation-playbook-making-llms-production-ready) - Playbook for embedding eval gates into pipelines and deployments.
 
 ---
 
-## 4. Observability & Experimentation Platforms
+## Platforms
 
-Platforms that combine **tracing, evaluation, analytics, and guardrails**. Many provide hosted and self-hosted options.
+### Open Source Platforms
 
-### 4.1 Open-source platforms
+- [Arize Phoenix](https://github.com/Arize-ai/phoenix) - OpenTelemetry-native observability and evaluation toolkit for RAG, LLMs, and agents.
+- [Langfuse](https://github.com/langfuse/langfuse) - Open-source LLM engineering platform providing tracing, eval dashboards, and prompt analytics.
+- [OpenLIT](https://github.com/openlit/openlit) - Telemetry instrumentation for LLM apps with built-in quality metrics and guardrail hooks.
+- [OpenLLMetry](https://github.com/traceloop/openllmetry) - OpenTelemetry instrumentation for LLM traces that feed any backend or custom eval logic.
+- [Opik](https://github.com/comet-ml/opik) - Self-hostable evaluation and observability hub with datasets, scoring jobs, and interactive traces.
+- [UpTrain](https://github.com/uptrain-ai/uptrain) - OSS/hosted evaluation suite with 20+ checks, RCA tooling, and LlamaIndex integrations.
+- [VoltAgent](https://github.com/VoltAgent/voltagent) - TypeScript agent framework paired with VoltOps for trace inspection and regression testing.
+- [Zeno](https://zenoml.com/) - Data-centric evaluation UI for slicing failures, comparing prompts, and debugging retrieval quality.
 
-- [Langfuse](https://github.com/langfuse/langfuse) – OSS LLM engineering platform (traces, evals, prompt management, metrics) for any framework.
-- [Arize Phoenix](https://github.com/Arize-ai/phoenix) – AI observability and evaluation toolkit built on OpenTelemetry; supports training + inference + RAG workloads.
-- [Opik](https://github.com/comet-ml/opik) – Open-source evaluation & observability platform for LLM applications, with dashboards and agent optimization tools.
-- [OpenLIT](https://github.com/openlit/openlit) – OpenTelemetry-native observability + evaluation library for LLMs, vector DBs, and GPUs.
-- [OpenLLMetry](https://github.com/traceloop/openllmetry) – OpenTelemetry instrumentation for LLM apps (traces + metrics), suitable as a base for custom eval flows.
-- [VoltAgent / VoltOps](https://github.com/VoltAgent/voltagent) – TypeScript agent framework with built-in VoltOps observability platform for tracing and debugging agents.
-- [PostHog LLM Observability](https://posthog.com/blog/llm-observability) – Analytics and event tracking extended to LLM apps; supports custom LLM eval metrics via events.
-- [Zeno](https://zenoml.com/) – Data-centric evaluation/debugging tool for ML and LLM applications; especially strong at slicing outputs and spotting failure clusters.
+### Hosted Platforms
 
-### 4.2 Hosted & commercial eval/obs platforms
+- [Confident AI](https://www.confident-ai.com/) - DeepEval-backed platform for scheduled eval suites, guardrails, and production monitors.
+- [Datadog AI Observability](https://www.datadoghq.com/product/ai-observability/) - Datadog module capturing LLM traces, metrics, and safety signals.
+- [Deepchecks LLM Evaluation](https://www.deepchecks.com/solutions/llm-evaluation/) - Managed eval suites with dataset versioning, dashboards, and alerting.
+- [Galileo GenAI](https://www.rungalileo.io/product/genai-studio) - Evaluation and data-curation studio with labeling, slicing, and issue triage.
+- [Humanloop](https://humanloop.com/) - Production prompt management with human-in-the-loop evals and annotation queues.
+- [Maxim AI](https://www.getmaxim.ai/) - Evaluation and observability platform focusing on agent simulations and monitoring.
+- [PostHog LLM Observability](https://posthog.com/blog/llm-observability) - Product analytics toolkit extended to track custom LLM events and metrics.
 
-- [Confident AI](https://www.confident-ai.com/) – Full LLM evaluation platform built around DeepEval; provides regression suites, guardrails, and production monitoring.
-- [Braintrust](https://www.braintrust.dev/) – Evaluation and observability layer with CI integration, remote agent evals, and trace-driven debugging.
-- [LangSmith](https://smith.langchain.com/) – Hosted tracing + evals for LangChain apps, with datasets, annotation UIs, and CI hooks.
-- [Humanloop](https://humanloop.com/) – Managed platform for prompt management, A/B testing, and evaluation with human feedback workflows.
-- [Maxim AI](https://www.getmaxim.ai/) – End-to-end evaluation and observability infra with simulation, evals, and monitoring tailored to agentic applications.
-- [Deepchecks LLM Evaluation](https://www.deepchecks.com/solutions/llm-evaluation/) – Production eval suite including datasets, metrics, dashboards, and safety/risk tools.
-- [Galileo GenAI](https://www.rungalileo.io/product/genai-studio) – Evaluation and data debugging for LLM applications with labeling tools.
-- [Datadog AI Observability](https://www.datadoghq.com/product/ai-observability/) – LLM monitoring and evaluation metrics integrated with broader infra monitoring.
+### Cloud Platforms
 
-### 4.3 Cloud provider evaluation services
-
-- [Amazon Bedrock Evaluations](https://aws.amazon.com/bedrock/evaluations/) – Evaluate foundation models and RAG workflows using predefined and custom metrics, including safety via Guardrails.
-- [Amazon Bedrock Guardrails](https://aws.amazon.com/bedrock/guardrails/) – Configurable safeguards that evaluate prompts and responses for safety and policy compliance.
-- [Azure AI Foundry Evaluations](https://learn.microsoft.com/en-us/azure/ai-foundry/how-to/evaluate-generative-ai-app) – Cloud eval service with safety and quality metrics, integrated with Prompt Flow and agents.
-- [Azure AI Foundry Risk & Safety Evaluations](https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/introducing-ai-assisted-risk-and-safety-evaluations-in-azure-ai-foundry/4098595) – Automated safety evals to test generative apps before deployment.
-- [Vertex AI Gen AI Evaluation](https://cloud.google.com/vertex-ai/generative-ai/docs/models/evaluation-overview) – Adaptive rubric-based evaluation, including model migration and third-party model evaluation.
+- [Amazon Bedrock Evaluations](https://aws.amazon.com/bedrock/evaluations/) - Managed service for scoring foundation models and RAG pipelines.
+- [Amazon Bedrock Guardrails](https://aws.amazon.com/bedrock/guardrails/) - Safety layer that evaluates prompts and responses for policy compliance.
+- [Azure AI Foundry Evaluations](https://learn.microsoft.com/en-us/azure/ai-foundry/how-to/evaluate-generative-ai-app) - Evaluation flows and risk reports wired into Prompt Flow projects.
+- [Vertex AI Generative AI Evaluation](https://cloud.google.com/vertex-ai/generative-ai/docs/models/evaluation-overview) - Adaptive rubric-based evaluation for Google and third-party models.
 
 ---
 
-## 5. Prompt & Prompt-System Evaluation
+## Benchmarks
 
-Tools dedicated to **prompt quality**, regression testing, and adversarial prompt attacks.
+### General
 
-- [Promptfoo](https://github.com/promptfoo/promptfoo) – Prompt testing and red-teaming toolkit with GitHub Actions, code scanning, and dashboards.
-- [ChainForge](https://github.com/ianarawjo/ChainForge) – Visual environment for comparing prompts, models, and responses; great for manual prompt experiments and hypothesis testing.
-- [Prompt Flow](https://github.com/microsoft/promptflow) – Flow-based dev tool with explicit “evaluation flows” for systematic prompt testing and batch evals.
-- [OpenAI Evals prompt tests](https://github.com/openai/evals) – Includes numerous prompt-level benchmarks and examples for classification, extraction, and reasoning tasks.
-- [Guardrails AI](https://github.com/ShreyaR/guardrails) – Validation and correction framework for LLM outputs; can be wired into evaluation pipelines to enforce and measure contract adherence.
-- [Prompt injection / jailbreak test suites](https://github.com/centerforaisafety/harmbench) – Datasets and tools for evaluating prompt injection and jailbreak robustness.
+- [AGIEval](https://github.com/ruixiangcui/AGIEval) - Human-centric standardized exams spanning entrance tests, legal, and math scenarios.
+- [BIG-bench](https://github.com/google/BIG-bench) - Collaborative benchmark probing reasoning, commonsense, and long-tail tasks.
+- [CommonGen-Eval](https://github.com/allenai/CommonGen-Eval) - GPT-4 judged CommonGen-lite suite for constrained commonsense text generation.
+- [DyVal](https://arxiv.org/abs/2309.17167) - Dynamic reasoning benchmark that varies difficulty and graph structure to stress models.
+- [LM Evaluation Harness](https://github.com/EleutherAI/lm-evaluation-harness) - Standard harness for scoring autoregressive models on dozens of tasks.
+- [LLM-Uncertainty-Bench](https://github.com/smartyfh/LLM-Uncertainty-Bench) - Adds uncertainty-aware scoring across QA, RC, inference, dialog, and summarization.
+- [LLMBar](https://github.com/princeton-nlp/LLMBar) - Meta-eval testing whether LLM judges can spot instruction-following failures.
+- [LV-Eval](https://github.com/infinigence/LVEval) - Long-context suite with five length tiers up to 256K tokens and distraction controls.
+- [MMLU](https://github.com/hendrycks/test) - Massive multitask language understanding benchmark for academic and professional subjects.
+- [MMLU-Pro](https://github.com/TIGER-AI-Lab/MMLU-Pro) - Harder 10-choice extension focused on reasoning-rich, low-leakage questions.
+- [PertEval](https://github.com/aigc-apps/PertEval) - Knowledge-invariant perturbations to debias multiple-choice accuracy inflation.
+
+### Domain
+
+- [FinEval](https://github.com/SUFE-AIFLM-Lab/FinEval) - Chinese financial QA and reasoning benchmark across regulation, accounting, and markets.
+- [LAiW](https://github.com/Dai-shen/LAiW) - Legal benchmark covering retrieval, foundation inference, and complex case applications in Chinese law.
+- [HumanEval](https://github.com/openai/human-eval) - Unit-test-based benchmark for code synthesis and docstring reasoning.
+- [MATH](https://github.com/hendrycks/math) - Competition-level math benchmark targeting multi-step symbolic reasoning.
+- [MBPP](https://github.com/google-research/google-research/tree/master/mbpp) - Mostly Basic Programming Problems benchmark for small coding tasks.
+
+### Agent
+
+- [AgentBench](https://github.com/THUDM/AgentBench) - Evaluates LLMs acting as agents across simulated domains like games and coding.
+- [GAIA](https://github.com/GAIA-benchmark/GAIA) - Tool-use benchmark requiring grounded reasoning with live web access and planning.
+- [MetaTool Tasks](https://github.com/meta-llama/MetaTool) - Tool-calling benchmark and eval harness for agents built around LLaMA models.
+- [SuperCLUE-Agent](https://github.com/CLUEbenchmark/SuperCLUE-Agent) - Chinese agent eval covering tool use, planning, long/short-term memory, and APIs.
+
+### Safety
+
+- [AdvBench](https://github.com/centerforaisafety/advbench) - Adversarial prompt benchmark for jailbreak and misuse resistance measurement.
+- [BBQ](https://github.com/nyu-mll/BBQ) - Bias-sensitive QA sets measuring stereotype reliance and ambiguous cases.
+- [ToxiGen](https://github.com/microsoft/ToxiGen) - Toxic language generation and classification benchmark for robustness checks.
+- [TruthfulQA](https://github.com/sylinrl/TruthfulQA) - Measures factuality and hallucination propensity via adversarially written questions.
 
 ---
 
-## 6. Datasets, Papers & Methodology
+## Leaderboards
 
-Resources to **design** better evals: metrics, methodologies, and surveys.
-
-- [RAG Evaluation Survey: Framework, Metrics, and Methods](https://arxiv.org/abs/2405.07437) – Deep dive into RAG eval, with taxonomy and open problems.
-- [RAGEval: Scenario Specific RAG Evaluation Dataset Generation Framework](https://arxiv.org/abs/2408.01262) – Framework for generating domain-specific RAG eval datasets and metrics.
-- [HELM](https://crfm.stanford.edu/helm/latest/) – Methodology and benchmark for holistic evaluation across many axes (accuracy, calibration, robustness, fairness, etc.).
-- [LLM Evaluation Tools Roundups](https://www.deepchecks.com/llm-evaluation/best-tools/) – Regularly updated overviews of LLM eval and observability tools across OSS and SaaS.
-- [ZenML Evaluation Playbook](https://www.zenml.io/blog/the-evaluation-playbook-making-llms-production-ready) – Practical guide to integrating evaluation into LLM pipelines and RAG systems.
-- [W&B Evaluations Docs](https://docs.wandb.ai/weave/guides/core-types/evaluations) – Evaluation-driven development workflow patterns for LLM apps.
-- [Evaluation Guides for Cloud Platforms](https://learn.microsoft.com/en-us/azure/ai-foundry/how-to/evaluate-generative-ai-app) – Azure, Vertex AI, and Bedrock docs with concrete evaluation recipes and best practices.
-- [EvalScope Blogs](https://evalscope.readthedocs.io/en/latest/blog/RAG/RAG_Evaluation.html) – Hands-on guides for RAG evaluation using Ragas and related tools.
+- [CompassRank](https://rank.opencompass.org.cn/home) - OpenCompass leaderboard comparing frontier and research models across multi-domain suites.
+- [LLM Agents Benchmark Collections](https://llmbench.ai/) - Aggregated leaderboard comparing multi-agent safety and reliability suites.
+- [Open LLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard) - Hugging Face benchmark board with IFEval, MMLU-Pro, GPQA, and more.
+- [OpenAI Evals Registry](https://github.com/openai/evals/tree/main/evals/elsuite) - Community suites and scores covering accuracy, safety, and instruction following.
+- [Scale SEAL Leaderboard](https://scale.com/leaderboard) - Expert-rated leaderboard covering reasoning, coding, and safety via SEAL evaluations.
 
 ---
 
-## 7. Starter Kits & Example Apps
+## Resources
 
-Ready-to-run repos that demonstrate **evaluation in context** for RAG, agents, and apps.
+### Guides & Training
 
-- [Arize Phoenix AI Chatbot](https://github.com/Arize-ai/phoenix-ai-chatbot) – Next.js chatbot instrumented with Phoenix for full tracing and evaluation.
-- [Deepchecks QA-over-CSV Demo](https://github.com/deepchecks/qa-over-csv) – Example agent app wired to Deepchecks LLM evaluation SDK.
-- [Azure LLM Evaluation Samples](https://github.com/Azure-Samples/llm-evaluation) – Azure AI Foundry examples: evaluation projects, Prompt Flow integration, and safety evals.
-- [Promptfoo Example Repos](https://github.com/promptfoo/promptfoo/tree/main/examples) – Example test suites for prompts, RAG, and retrieval quality.
-- [OpenAI Evals Demo Evals](https://github.com/withmartian/demo-evals) – Example OpenAI evals showing how to structure custom benchmarks.
-- [ZenML LLMOps Examples](https://github.com/zenml-io/zenml-projects) – End-to-end pipelines including evaluation for RAG, agents, and classic ML.
+- [AI Evals for Engineers & PMs](https://maven.com/parlance-labs/evals?promoCode=FAST25) - Cohort course from Hamel & Shreya with lifetime reader, Discord, AI Eval Assistant, and live office hours.
+- [Why AI evals are the hottest new skill](https://www.lennysnewsletter.com/p/why-ai-evals-are-the-hottest-new-skill) - Lenny's interview covering error analysis, axial coding, eval prompts, and PRD alignment.
+- [Error Analysis & Prioritizing Next Steps](https://www.youtube.com/watch?v=bWkQk5_OG8k) - Andrew Ng walkthrough showing how to slice traces and focus eval work via classic ML techniques.
+
+### Examples
+
+- [Arize Phoenix AI Chatbot](https://github.com/Arize-ai/phoenix-ai-chatbot) - Next.js chatbot with Phoenix tracing, dataset replays, and evaluation jobs.
+- [Azure LLM Evaluation Samples](https://github.com/Azure-Samples/llm-evaluation) - Prompt Flow and Azure AI Foundry projects demonstrating hosted evals.
+- [Deepchecks QA over CSV](https://github.com/deepchecks/qa-over-csv) - Example agent wired to Deepchecks scoring plus tracing dashboards.
+- [OpenAI Evals Demo Evals](https://github.com/withmartian/demo-evals) - Templates for extending OpenAI Evals with custom datasets.
+- [Promptfoo Examples](https://github.com/promptfoo/promptfoo/tree/main/examples) - Ready-made prompt regression suites for RAG, summarization, and agents.
+- [ZenML Projects](https://github.com/zenml-io/zenml-projects) - End-to-end pipelines showing how to weave evaluation steps into LLMOps stacks.
+
+### Related Collections
+
+- [Awesome ChainForge](https://github.com/loloMD/awesome_chainforge) - Ecosystem list centered on ChainForge experiments and extensions.
+- [Awesome-LLM-Eval](https://github.com/onejune2018/Awesome-LLM-Eval) - Cross-lingual (Chinese) compendium of eval tooling, papers, datasets, and leaderboards.
+- [Awesome LLMOps](https://github.com/tensorchord/awesome-llmops) - Curated tooling for training, deployment, and monitoring of LLM apps.
+- [Awesome Machine Learning](https://github.com/josephmisiti/awesome-machine-learning) - Language-specific ML resources that often host evaluation building blocks.
+- [Awesome RAG](https://github.com/noworneverev/Awesome-RAG) - Broad coverage of retrieval-augmented generation techniques and tools.
+- [Awesome Self-Hosted](https://github.com/awesome-selfhosted/awesome-selfhosted) - Massive catalog of self-hostable software, including observability stacks.
+- [GenAI Notes](https://github.com/eugeneyan/genai-notes) - Continuously updated notes and resources on GenAI systems, evaluation, and operations.
 
 ---
 
-## 8. Related Awesome Lists & Collections
+## Licensing
 
-Other curated lists that overlap; useful for deep dives into niches:
-
-- [Awesome-RAG-Evaluation](https://github.com/YHPeter/Awesome-RAG-Evaluation) – Benchmarks, datasets, and metrics specifically for RAG systems.
-- [Awesome-RAG](https://github.com/noworneverev/Awesome-RAG) – Broad RAG list, including a dedicated RAG evaluation section.
-- [Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM) – General LLM list; several sections on evaluation, benchmarks, and leaderboards.
-- [Awesome ChainForge](https://github.com/loloMD/awesome_chainforge) – Ecosystem list around the ChainForge prompt-testing tool.
-- [Awesome GenAI / LLMOps Lists](https://github.com/eugeneyan/genai-notes) – Broader collections with subsections on eval, tracing, and LLMOps.
+Released under the [CC0 1.0 Universal](LICENSE) license.
 
 ---
 
 ## Contributing
 
-Contributions are welcome!
+Contributions are welcome—please read [CONTRIBUTING.md](CONTRIBUTING.md) for scope, entry rules, and the pull-request checklist before submitting updates.
 
-- Add tools that are **actively maintained** and have clear documentation or examples.
-- Prefer entries that:
-  - Are used in production or referenced in recent surveys/blogs.
-  - Provide *concrete* evaluation functionality (metrics, harnesses, dashboards), not just generic libraries.
-- Avoid duplicates: a project should appear in the **single most relevant section**.
-
-Please follow the [Awesome List guidelines](https://github.com/sindresorhus/awesome/blob/main/pull_request_template.md) and keep entries in alphabetical order within each subsection.
-
----
-
-## Why this list?
-
-Most AI apps now look like some combination of:
-
-- RAG pipelines (LangChain, LlamaIndex, custom graphs)
-- Tool-using agents (LangGraph, crewAI-style, custom orchestrators)
-- Cloud-hosted models (OpenAI, Anthropic, Gemini, Bedrock, Vertex, Azure)
-
-This list is meant to be the **fastest path** from “I know I should evaluate my system” to “I have a concrete tool wired into my stack and CI/CD.”
+[✌️](https://www.vvkmnn.xyz)
