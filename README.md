@@ -115,6 +115,7 @@ A curated list of tools, frameworks, benchmarks, and observability platforms for
 - [UpTrain](https://github.com/uptrain-ai/uptrain) - OSS/hosted evaluation suite with 20+ checks, RCA tooling, and LlamaIndex integrations.
 - [VoltAgent](https://github.com/VoltAgent/voltagent) - TypeScript agent framework paired with VoltOps for trace inspection and regression testing.
 - [Zeno](https://zenoml.com/) - Data-centric evaluation UI for slicing failures, comparing prompts, and debugging retrieval quality.
+- [traceAI](https://github.com/future-agi/traceAI) - Open-source multi-modal tracing and diagnostics framework for LLM, RAG, and agent workflows built on OpenTelemetry.
 
 ### Hosted Platforms
 
@@ -125,6 +126,8 @@ A curated list of tools, frameworks, benchmarks, and observability platforms for
 - [Humanloop](https://humanloop.com/) - Production prompt management with human-in-the-loop evals and annotation queues.
 - [Maxim AI](https://www.getmaxim.ai/) - Evaluation and observability platform focusing on agent simulations and monitoring.
 - [PostHog LLM Observability](https://posthog.com/blog/llm-observability) - Product analytics toolkit extended to track custom LLM events and metrics.
+- [Future AGI](https://futureagi.com/) - Multi-modal evaluation, simulation, and optimization platform for reliable AI systems across software and hardware.
+
 
 ### Cloud Platforms
 
