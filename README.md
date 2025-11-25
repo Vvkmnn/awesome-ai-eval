@@ -112,11 +112,13 @@ A curated list of tools, frameworks, benchmarks, and observability platforms for
 - [OpenLIT](https://github.com/openlit/openlit) - Telemetry instrumentation for LLM apps with built-in quality metrics and guardrail hooks.
 - [OpenLLMetry](https://github.com/traceloop/openllmetry) - OpenTelemetry instrumentation for LLM traces that feed any backend or custom eval logic.
 - [Opik](https://github.com/comet-ml/opik) - Self-hostable evaluation and observability hub with datasets, scoring jobs, and interactive traces.
+- [Rhesis](https://github.com/rhesis-ai/rhesis) - Collaborative testing platform with automated test generation and multi-turn conversation simulation for LLM and agentic applications.
 - [UpTrain](https://github.com/uptrain-ai/uptrain) - OSS/hosted evaluation suite with 20+ checks, RCA tooling, and LlamaIndex integrations.
 - [VoltAgent](https://github.com/VoltAgent/voltagent) - TypeScript agent framework paired with VoltOps for trace inspection and regression testing.
 - [Zeno](https://zenoml.com/) - Data-centric evaluation UI for slicing failures, comparing prompts, and debugging retrieval quality.
 - [traceAI](https://github.com/future-agi/traceAI) - Open-source multi-modal tracing and diagnostics framework for LLM, RAG, and agent workflows built on OpenTelemetry.
 
+  
 ### Hosted Platforms
 
 - [Confident AI](https://www.confident-ai.com/) - DeepEval-backed platform for scheduled eval suites, guardrails, and production monitors.
