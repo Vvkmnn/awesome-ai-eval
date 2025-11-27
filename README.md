@@ -229,4 +229,4 @@ Released under the [CC0 1.0 Universal](LICENSE) license.
 
 Contributions are welcome—please read [CONTRIBUTING.md](CONTRIBUTING.md) for scope, entry rules, and the pull-request checklist before submitting updates.
 
-[✌️](https://www.vvkmnn.xyz)
+<a href="https://www.vvkmnn.xyz"><img src="https://github.githubassets.com/images/icons/emoji/unicode/270c.png" height="24" alt="✌️"></a> 
