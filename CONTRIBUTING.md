@@ -21,7 +21,7 @@ It explicitly excludes:
 Each entry follows this format:
 
 ```
-- [**Name**](https://link) - Description. ![](badge-url)
+- [**Name**](https://link) ![](badge-url) - Description.
 ```
 
 ### Guidelines
@@ -34,7 +34,7 @@ Each entry follows this format:
 
 ### Creating badges
 
-Every entry ends with a non-clickable badge. Here's how to create them:
+Every entry includes a non-clickable badge after the title. Here's how to create them:
 
 #### For GitHub repositories
 
@@ -49,7 +49,7 @@ Use the shields.io GitHub stars badge with `github.com` label:
 2. Build badge: `![](https://img.shields.io/github/stars/anthropics/evals?style=social&label=github.com)`
 3. Final entry:
 ```
-- [**Anthropic Model Evals**](https://github.com/anthropics/evals) - Evaluation suite for safety, capabilities, and alignment testing. ![](https://img.shields.io/github/stars/anthropics/evals?style=social&label=github.com)
+- [**Anthropic Model Evals**](https://github.com/anthropics/evals) ![](https://img.shields.io/github/stars/anthropics/evals?style=social&label=github.com) - Evaluation suite for safety, capabilities, and alignment testing.
 ```
 
 #### For non-GitHub links (docs, websites, papers)
@@ -65,7 +65,7 @@ Use a static shields.io badge with the domain name:
 2. Build badge: `![](https://img.shields.io/badge/docs.llamaindex.ai-active-blue?style=social)`
 3. Final entry:
 ```
-- [**LlamaIndex Evaluation**](https://docs.llamaindex.ai/en/stable/module_guides/evaluating/) - Modules for replaying queries and comparing query engines. ![](https://img.shields.io/badge/docs.llamaindex.ai-active-blue?style=social)
+- [**LlamaIndex Evaluation**](https://docs.llamaindex.ai/en/stable/module_guides/evaluating/) ![](https://img.shields.io/badge/docs.llamaindex.ai-active-blue?style=social) - Modules for replaying queries and comparing query engines.
 ```
 
 #### Quick reference
@@ -104,17 +104,17 @@ Here's a complete example of adding a new tool to the "Core Frameworks" section:
 ```markdown
 #### Core Frameworks
 
-- [**DeepEval**](https://github.com/confident-ai/deepeval) - Python unit-test style metrics for hallucination, relevance, toxicity, and bias. ![](https://img.shields.io/github/stars/confident-ai/deepeval?style=social&label=github.com)
-- [**Ragas**](https://github.com/explodinggradients/ragas) - Evaluation library that grades answers, context, and grounding with pluggable scorers. ![](https://img.shields.io/github/stars/explodinggradients/ragas?style=social&label=github.com)
+- [**DeepEval**](https://github.com/confident-ai/deepeval) ![](https://img.shields.io/github/stars/confident-ai/deepeval?style=social&label=github.com) - Python unit-test style metrics for hallucination, relevance, toxicity, and bias.
+- [**Ragas**](https://github.com/explodinggradients/ragas) ![](https://img.shields.io/github/stars/explodinggradients/ragas?style=social&label=github.com) - Evaluation library that grades answers, context, and grounding with pluggable scorers.
 ```
 
 **After (with your new entry alphabetized):**
 ```markdown
 #### Core Frameworks
 
-- [**DeepEval**](https://github.com/confident-ai/deepeval) - Python unit-test style metrics for hallucination, relevance, toxicity, and bias. ![](https://img.shields.io/github/stars/confident-ai/deepeval?style=social&label=github.com)
-- [**MyNewTool**](https://github.com/org/mynewtool) - Brief description of what makes this tool useful for evaluation. ![](https://img.shields.io/github/stars/org/mynewtool?style=social&label=github.com)
-- [**Ragas**](https://github.com/explodinggradients/ragas) - Evaluation library that grades answers, context, and grounding with pluggable scorers. ![](https://img.shields.io/github/stars/explodinggradients/ragas?style=social&label=github.com)
+- [**DeepEval**](https://github.com/confident-ai/deepeval) ![](https://img.shields.io/github/stars/confident-ai/deepeval?style=social&label=github.com) - Python unit-test style metrics for hallucination, relevance, toxicity, and bias.
+- [**MyNewTool**](https://github.com/org/mynewtool) ![](https://img.shields.io/github/stars/org/mynewtool?style=social&label=github.com) - Brief description of what makes this tool useful for evaluation.
+- [**Ragas**](https://github.com/explodinggradients/ragas) ![](https://img.shields.io/github/stars/explodinggradients/ragas?style=social&label=github.com) - Evaluation library that grades answers, context, and grounding with pluggable scorers.
 ```
 
 ## Running awesome-lint
