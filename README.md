@@ -41,6 +41,7 @@ Evaluation is how you know if your AI actually works (and not hallucinating). Th
 
 #### Core Frameworks
 
+- ![](https://img.shields.io/github/stars/alepot55/agentrial?style=social&label=github.com) [**agentrial**](https://github.com/alepot55/agentrial) - agentrial is the pytest for AI agents: run N trials, get confidence intervals, catch regressions before production.
 - ![](https://img.shields.io/github/stars/Aleph-Alpha-Research/eval-framework?style=social&label=github.com) [**Aleph Alpha Eval Framework**](https://github.com/Aleph-Alpha-Research/eval-framework) - Production-ready evaluation framework with 90+ pre-loaded benchmarks for reasoning, coding, and safety.
 - ![](https://img.shields.io/github/stars/anthropics/evals?style=social&label=github.com) [**Anthropic Model Evals**](https://github.com/anthropics/evals) - Anthropic's evaluation suite for safety, capabilities, and alignment testing of language models.
 - ![](https://img.shields.io/github/stars/safety-research/bloom?style=social&label=github.com) [**Bloom**](https://github.com/safety-research/bloom) - Anthropic's open-source agentic framework for automated behavioral evaluations of frontier AI models.
