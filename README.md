@@ -40,7 +40,6 @@ Evaluation is how you know if your AI actually works (and not hallucinating). Th
 
 #### Core Frameworks
 
-- ![](https://img.shields.io/github/stars/alepot55/agentrial?style=social&label=github.com) [**agentrial**](https://github.com/alepot55/agentrial) - agentrial is the pytest for AI agents: run N trials, get confidence intervals, catch regressions before production.
 - ![](https://img.shields.io/github/stars/Aleph-Alpha-Research/eval-framework?style=social&label=github.com) [**Aleph Alpha Eval Framework**](https://github.com/Aleph-Alpha-Research/eval-framework) - Production-ready evaluation framework with 90+ pre-loaded benchmarks for reasoning, coding, and safety.
 - ![](https://img.shields.io/github/stars/anthropics/evals?style=social&label=github.com) [**Anthropic Model Evals**](https://github.com/anthropics/evals) - Anthropic's evaluation suite for safety, capabilities, and alignment testing of language models.
 - ![](https://img.shields.io/github/stars/safety-research/bloom?style=social&label=github.com) [**Bloom**](https://github.com/safety-research/bloom) - Anthropic's open-source agentic framework for automated behavioral evaluations of frontier AI models.
@@ -63,6 +62,7 @@ Evaluation is how you know if your AI actually works (and not hallucinating). Th
 #### Application and Agent Harnesses
 
 - ![](https://img.shields.io/badge/athina.ai-active-blue?style=social) [**Athina AI**](https://www.athina.ai/) - SOC-2 compliant LLM evaluation and monitoring platform with 50+ preset evaluations and VPC deployment.
+- ![](https://img.shields.io/github/stars/alepot55/agentrial?style=social&label=github.com) [**Agentrial**](https://github.com/alepot55/agentrial) - Statistical evaluation framework that runs AI agents N times, computes confidence intervals, and detects regressions in CI/CD.
 - ![](https://img.shields.io/badge/braintrust.dev-active-blue?style=social) [**Braintrust**](https://www.braintrust.dev/) - Hosted evaluation workspace with CI-style regression tests, agent sandboxes, and token cost tracking.
 - ![](https://img.shields.io/badge/smith.langchain.com-active-blue?style=social) [**LangSmith**](https://smith.langchain.com/) - Hosted tracing plus datasets, batched evals, and regression gating for LangChain apps.
 - ![](https://img.shields.io/badge/parea.ai-active-blue?style=social) [**Parea AI**](https://www.parea.ai/) - Developer tools for evaluating, testing, and monitoring LLM-powered applications with actionable insights.
