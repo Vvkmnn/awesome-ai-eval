@@ -62,6 +62,7 @@ Evaluation is how you know if your AI actually works (and not hallucinating). Th
 #### Application and Agent Harnesses
 
 - ![](https://img.shields.io/badge/athina.ai-active-blue?style=social) [**Athina AI**](https://www.athina.ai/) - SOC-2 compliant LLM evaluation and monitoring platform with 50+ preset evaluations and VPC deployment.
+- ![](https://img.shields.io/github/stars/alepot55/agentrial?style=social&label=github.com) [**Agentrial**](https://github.com/alepot55/agentrial) - Statistical evaluation framework that runs AI agents N times, computes confidence intervals, and detects regressions in CI/CD.
 - ![](https://img.shields.io/badge/braintrust.dev-active-blue?style=social) [**Braintrust**](https://www.braintrust.dev/) - Hosted evaluation workspace with CI-style regression tests, agent sandboxes, and token cost tracking.
 - ![](https://img.shields.io/badge/smith.langchain.com-active-blue?style=social) [**LangSmith**](https://smith.langchain.com/) - Hosted tracing plus datasets, batched evals, and regression gating for LangChain apps.
 - ![](https://img.shields.io/badge/parea.ai-active-blue?style=social) [**Parea AI**](https://www.parea.ai/) - Developer tools for evaluating, testing, and monitoring LLM-powered applications with actionable insights.
