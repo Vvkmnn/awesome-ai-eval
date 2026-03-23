@@ -203,6 +203,7 @@ Evaluation is how you know if your AI actually works (and not hallucinating). Th
 - ![](https://img.shields.io/github/stars/hendrycks/math?style=social&label=github.com) [**MATH**](https://github.com/hendrycks/math) - Competition-level math benchmark targeting multi-step symbolic reasoning.
 - ![](https://img.shields.io/github/stars/google-research/google-research?style=social&label=github.com) [**MBPP**](https://github.com/google-research/google-research/tree/master/mbpp) - Mostly Basic Programming Problems benchmark for small coding tasks.
 - ![](https://img.shields.io/badge/crfm.stanford.edu-active-blue?style=social) [**MedHELM**](https://crfm.stanford.edu/helm/medhelm/latest/) - Comprehensive medical LLM benchmark with 121 clinician-validated tasks and LLM-jury evaluation protocol.
+- ![](https://img.shields.io/github/stars/cittaverse/narrative-scorer?style=social&label=github.com) [**Narrative Scorer**](https://github.com/cittaverse/narrative-scorer) - Six-dimension automated evaluation for Chinese autobiographical memory narratives in digital reminiscence therapy, measuring event richness, coherence, emotional depth, and identity integration.
 
 ### Agent
 
