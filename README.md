@@ -218,6 +218,7 @@ Evaluation is how you know if your AI actually works (and not hallucinating). Th
 - ![](https://img.shields.io/github/stars/CLUEbenchmark/SuperCLUE-Agent?style=social&label=github.com) [**SuperCLUE-Agent**](https://github.com/CLUEbenchmark/SuperCLUE-Agent) - Chinese agent eval covering tool use, planning, long/short-term memory, and APIs.
 - ![](https://img.shields.io/github/stars/SWE-bench/SWE-bench?style=social&label=github.com) [**SWE-bench**](https://github.com/SWE-bench/SWE-bench) - Real-world GitHub issue resolution benchmark for coding agents.
 - ![](https://img.shields.io/badge/swe--bench--live.github.io-active-blue?style=social) [**SWE-bench Live**](https://swe-bench-live.github.io/) - Continuously updated benchmark with monthly refreshes for contamination-free evaluation.
+- ![](https://img.shields.io/github/stars/Dmatut7/shoppay-audit-benchmark?style=social&label=github.com) [**ShopPay Audit Benchmark**](https://github.com/Dmatut7/shoppay-audit-benchmark) - Spec-grounded business-logic audit benchmark for AI coding agents.
 - ![](https://img.shields.io/badge/scale.com-active-blue?style=social) [**SWE-bench Pro**](https://scale.com/leaderboard/swe_bench_pro_public) - Enterprise-level coding benchmark with 1,865 problems across 41 repos requiring hours-to-days solutions.
 - ![](https://img.shields.io/badge/arxiv.org-active-blue?style=social) [**Terminal-Bench**](https://arxiv.org/abs/2505.09876) - Stanford/Laude benchmark evaluating AI agents operating in sandboxed command-line environments.
 
