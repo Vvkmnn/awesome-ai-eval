@@ -160,6 +160,7 @@ Evaluation is how you know if your AI actually works (and not hallucinating). Th
 - ![](https://img.shields.io/badge/orq.ai-active-blue?style=social) [**Orq.ai**](https://orq.ai/) - LLM operations platform with prompt management, evaluation workflows, and deployment pipelines.
 - ![](https://img.shields.io/badge/posthog.com-active-blue?style=social) [**PostHog LLM Analytics**](https://posthog.com/llm-analytics) - Product analytics toolkit extended to track custom LLM events and metrics.
 - ![](https://img.shields.io/badge/promptlayer.com-active-blue?style=social) [**PromptLayer**](https://www.promptlayer.com/) - Prompt engineering platform with version control, evaluation tracking, and team collaboration.
+- ![](https://img.shields.io/badge/respan.ai-active-blue?style=social) [**Respan**](https://www.respan.ai/ai-gateway) - LLM observability and evaluation platform with custom graders, prompt management, and a multi-provider gateway.
 
 ### Cloud Platforms
 
