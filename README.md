@@ -77,6 +77,7 @@ Evaluation is how you know if your AI actually works (and not hallucinating). Th
 - ![](https://img.shields.io/badge/docs.llamaindex.ai-active-blue?style=social) [**LlamaIndex Evaluation**](https://docs.llamaindex.ai/en/stable/module_guides/evaluating/) - Modules for replaying queries, scoring retrievers, and comparing query engines.
 - ![](https://img.shields.io/github/stars/vectara/open-rag-eval?style=social&label=github.com) [**Open RAG Eval**](https://github.com/vectara/open-rag-eval) - Vectara harness with UMBRELA and AutoNuggetizer metrics that don't require golden answers.
 - ![](https://img.shields.io/github/stars/OpenBMB/RAGEval?style=social&label=github.com) [**RAGEval**](https://github.com/OpenBMB/RAGEval) - Framework that auto-generates corpora, questions, and RAG rubrics for completeness.
+- ![](https://img.shields.io/github/stars/greynewell/rag-architect?style=social&label=github.com) [**rag-architect**](https://github.com/greynewell/rag-architect) - Templates for RAG eval plans, LLM judge rubrics, observability specs, and regression gates.
 - ![](https://img.shields.io/github/stars/THU-KEG/R-Eval?style=social&label=github.com) [**R-Eval**](https://github.com/THU-KEG/R-Eval) - Toolkit for robust RAG scoring aligned with the Evaluation of RAG survey taxonomy.
 - ![](https://img.shields.io/github/stars/OpenBMB/UltraRAG?style=social&label=github.com) [**UltraRAG**](https://github.com/OpenBMB/UltraRAG) - MCP-based RAG development framework with built-in evaluation workflows and multimodal support.
 
