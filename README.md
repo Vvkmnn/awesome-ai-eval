@@ -122,6 +122,8 @@ Evaluation is how you know if your AI actually works (and not hallucinating). Th
 
 ---
 
+
+- [SuperCompress](https://github.com/arjunkshah/supercompress) - Prompt compression evaluation tool. Benchmarked across LLM tasks with 100% oracle recall at ~65% compression. ~60ms CPU latency. 65 passing tests.
 ## Platforms
 
 ### Open Source Platforms
