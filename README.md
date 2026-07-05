@@ -249,6 +249,7 @@ Evaluation is how you know if your AI actually works (and not hallucinating). Th
 
 - ![](https://img.shields.io/badge/arcprize.org-active-blue?style=social) [**ARC Prize Leaderboard**](https://arcprize.org/leaderboard) - AGI reasoning leaderboard tracking ARC-AGI-2 performance across frontier models and open submissions.
 - ![](https://img.shields.io/badge/rank.opencompass.org.cn-active-blue?style=social) [**CompassRank**](https://rank.opencompass.org.cn/home) - OpenCompass leaderboard comparing frontier and research models across multi-domain suites.
+- ![](https://img.shields.io/badge/imagebench.ai-active-blue?style=social) [**ImageBench**](https://imagebench.ai/) - Text-to-image benchmark and comparison site with side-by-side results, pass-rate summaries, and published methodology.
 - ![](https://img.shields.io/badge/llmbench.ai-active-blue?style=social) [**LLM Agents Benchmark Collections**](https://llmbench.ai/) - Aggregated leaderboard comparing multi-agent safety and reliability suites.
 - ![](https://img.shields.io/badge/lmarena.ai-active-blue?style=social) [**LMArena**](https://lmarena.ai/) - Crowdsourced LLM comparison platform (formerly LMSYS Chatbot Arena) with 6M+ user votes for Elo ratings.
 - ![](https://img.shields.io/badge/huggingface.co-active-blue?style=social) [**Open LLM Leaderboard**](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard) - Hugging Face benchmark board with IFEval, MMLU-Pro, GPQA, and more.
