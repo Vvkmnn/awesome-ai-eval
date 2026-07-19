@@ -263,6 +263,7 @@ Evaluation is how you know if your AI actually works (and not hallucinating). Th
 ### Guides & Training
 
 - ![](https://img.shields.io/badge/maven.com-active-blue?style=social) [**AI Evals for Engineers & PMs**](https://maven.com/parlance-labs/evals?promoCode=FAST25) - Cohort course from Hamel & Shreya with lifetime reader, Discord, AI Eval Assistant, and live office hours.
+- ![](https://img.shields.io/github/stars/prashibadkur11-creator/ai-failure-mode-taxonomy?style=social&label=github.com) [**AI Failure Mode Taxonomy**](https://github.com/prashibadkur11-creator/ai-failure-mode-taxonomy) - Catalog of AI product failure modes with a PM audit framework for evaluation criteria.
 - ![](https://img.shields.io/badge/eugeneyan.com-active-blue?style=social) [**AlignEval**](https://eugeneyan.com/writing/aligneval/) - Eugene Yan's guide on building LLM judges by following methodical alignment processes.
 - ![](https://img.shields.io/badge/applied--llms.org-active-blue?style=social) [**Applied LLMs**](https://applied-llms.org/) - Practical lessons from a year of building with LLMs, emphasizing evaluation as a core practice.
 - ![](https://img.shields.io/badge/sh--reya.com-active-blue?style=social) [**Data Flywheels for LLM Applications**](https://www.sh-reya.com/blog/ai-engineering-flywheel/) - Iterative data improvement processes for building better LLM systems.
