@@ -185,6 +185,7 @@ Evaluation is how you know if your AI actually works (and not hallucinating). Th
 - ![](https://img.shields.io/github/stars/TIGER-AI-Lab/MMLU-Pro?style=social&label=github.com) [**MMLU-Pro**](https://github.com/TIGER-AI-Lab/MMLU-Pro) - Harder 10-choice extension focused on reasoning-rich, low-leakage questions.
 - ![](https://img.shields.io/github/stars/aigc-apps/PertEval?style=social&label=github.com) [**PertEval**](https://github.com/aigc-apps/PertEval) - Knowledge-invariant perturbations to debias multiple-choice accuracy inflation.
 - ![](https://img.shields.io/badge/simplebench.ai-active-blue?style=social) [**SimpleBench**](https://simplebench.ai/) - Fundamental reasoning benchmark where humans (83.7%) significantly outperform best AI models (62.4%).
+- ![](https://img.shields.io/github/stars/TIGER-AI-Lab/StructEval?style=social&label=github.com) [**StructEval**](https://github.com/TIGER-AI-Lab/StructEval) - Benchmark for structured-output generation and cross-format conversion across 18 text and renderable formats, measuring syntax, structural fidelity, and visual fidelity.
 
 ### Long Context
 
