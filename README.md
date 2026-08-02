@@ -67,6 +67,7 @@ Evaluation is how you know if your AI actually works (and not hallucinating). Th
 - ![](https://img.shields.io/badge/smith.langchain.com-active-blue?style=social) [**LangSmith**](https://smith.langchain.com/) - Hosted tracing plus datasets, batched evals, and regression gating for LangChain apps.
 - ![](https://img.shields.io/badge/parea.ai-active-blue?style=social) [**Parea AI**](https://www.parea.ai/) - Developer tools for evaluating, testing, and monitoring LLM-powered applications with actionable insights.
 - ![](https://img.shields.io/badge/patronus.ai-active-blue?style=social) [**Patronus AI**](https://www.patronus.ai/) - Evaluation platform with multimodal LLM-as-judge, hallucination detection, and industry benchmarks like FinanceBench.
+- ![](https://img.shields.io/github/stars/raintree-technology/policystrata?style=social&label=github.com) [**PolicyStrata**](https://github.com/raintree-technology/policystrata) - Deterministic CI harness for cross-layer policy drift in governed SQL and data agents.
 - ![](https://img.shields.io/badge/docs.wandb.ai-active-blue?style=social) [**W&B Prompt Registry**](https://docs.wandb.ai/weave/guides/core-types/evaluations) - Prompt evaluation templates with reproducible scoring and reviews.
 
 ### RAG and Retrieval
