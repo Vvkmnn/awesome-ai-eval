@@ -232,6 +232,7 @@ Evaluation is how you know if your AI actually works (and not hallucinating). Th
 - ![](https://img.shields.io/badge/arxiv.org-active-blue?style=social) [**MME**](https://arxiv.org/abs/2306.13394) - Comprehensive MLLM evaluation measuring perception and cognition across 14 subtasks.
 - ![](https://img.shields.io/badge/mmmu--benchmark.github.io-active-blue?style=social) [**MMMU-Pro**](https://mmmu-benchmark.github.io/) - Harder extension of MMMU benchmark for multimodal understanding with expert-level questions.
 - ![](https://img.shields.io/github/stars/OpenGVLab/MMT-Bench?style=social&label=github.com) [**MMT-Bench**](https://github.com/OpenGVLab/MMT-Bench) - 31K+ questions across image, text, video, and point cloud modalities with 162 subtasks.
+- ![](https://img.shields.io/badge/paperedits.com-active-blue?style=social) [**PaperEdits Agentic Video Benchmark**](https://paperedits.com/benchmarking/gemini-agentic-video-understanding-benchmark) - Matched Gemini 3.7 Flash study comparing agentic and static video inspection on editing tasks.
 - ![](https://img.shields.io/badge/video--mme.github.io-active-blue?style=social) [**Video-MME**](https://video-mme.github.io/) - CVPR 2025 benchmark for comprehensive evaluation of multimodal LLMs in video analysis.
 - ![](https://img.shields.io/github/stars/showlab/VisualToolBench?style=social&label=github.com) [**VisualToolBench**](https://github.com/showlab/VisualToolBench) - First "think with image" benchmark evaluating MLLMs on tasks requiring active visual interaction.
 
