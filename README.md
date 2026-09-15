@@ -128,6 +128,7 @@ Evaluation is how you know if your AI actually works (and not hallucinating). Th
 
 - ![](https://img.shields.io/github/stars/Agenta-AI/agenta?style=social&label=github.com) [**Agenta**](https://github.com/Agenta-AI/agenta) - End-to-end LLM developer platform for prompt engineering, evaluation, and deployment.
 - ![](https://img.shields.io/github/stars/Arize-ai/phoenix?style=social&label=github.com) [**Arize Phoenix**](https://github.com/Arize-ai/phoenix) - OpenTelemetry-native observability and evaluation toolkit for RAG, LLMs, and agents.
+- ![](https://img.shields.io/github/stars/maximhq/bifrost?style=social&label=github.com) [**Bifrost**](https://github.com/maximhq/bifrost) - Self-hosted LLM gateway with multi-provider routing, fallbacks, load balancing, and request observability.
 - ![](https://img.shields.io/github/stars/ucbepic/docetl?style=social&label=github.com) [**DocETL**](https://github.com/ucbepic/docetl) - ETL system for complex document processing with LLMs and built-in quality checks.
 - ![](https://img.shields.io/github/stars/Giskard-AI/giskard?style=social&label=github.com) [**Giskard**](https://github.com/Giskard-AI/giskard) - Testing framework for ML models with vulnerability scanning and LLM-specific detectors.
 - ![](https://img.shields.io/github/stars/Helicone/helicone?style=social&label=github.com) [**Helicone**](https://github.com/Helicone/helicone) - Open-source LLM observability platform with cost tracking, caching, and evaluation tools.
