@@ -156,6 +156,7 @@ Evaluation is how you know if your AI actually works (and not hallucinating). Th
 - ![](https://img.shields.io/badge/galileo.ai-active-blue?style=social) [**Galileo**](https://www.galileo.ai/) - Evaluation and data-curation studio with labeling, slicing, and issue triage.
 - ![](https://img.shields.io/badge/honeyhive.ai-active-blue?style=social) [**HoneyHive**](https://www.honeyhive.ai/) - Evaluation and observability platform with prompt versioning, A/B testing, and fine-tuning workflows.
 - ![](https://img.shields.io/badge/humanloop.com-active-blue?style=social) [**Humanloop**](https://humanloop.com/) - Production prompt management with human-in-the-loop evals and annotation queues.
+- ![](https://img.shields.io/badge/jetty.io-active-blue?style=social) [**Jetty**](https://jetty.io/) - Runs agent workloads in sandboxes and scores each run with checks, checklists, and LLM judges.
 - ![](https://img.shields.io/badge/getmaxim.ai-active-blue?style=social) [**Maxim AI**](https://www.getmaxim.ai/) - Evaluation and observability platform focusing on agent simulations and monitoring.
 - ![](https://img.shields.io/badge/orq.ai-active-blue?style=social) [**Orq.ai**](https://orq.ai/) - LLM operations platform with prompt management, evaluation workflows, and deployment pipelines.
 - ![](https://img.shields.io/badge/posthog.com-active-blue?style=social) [**PostHog LLM Analytics**](https://posthog.com/llm-analytics) - Product analytics toolkit extended to track custom LLM events and metrics.
