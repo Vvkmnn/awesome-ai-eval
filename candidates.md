@@ -21,4 +21,5 @@ Projects proposed for the [main list](README.md) that are new or not yet widely 
 - [Respan](https://www.respan.ai/) - AI router with observability and automated evals for agent runs.
 - [semantix-ai](https://github.com/labrat-akhona/semantix-ai) - NLI judges, datasets, and audit trails for checking LLM outputs against regulatory clauses.
 - [ShopPay Audit Benchmark](https://github.com/Dmatut7/shoppay-audit-benchmark) - Spec-grounded business-logic audit tasks for coding agents.
+- [TestMu AI Agent Testing](https://www.testmuai.com/agent-testing/) - Tests chat, voice, and phone agents via simulated conversations and real calls; validates tool calls from Vapi, Retell, ElevenLabs, Agentforce.
 - [Voice Eval](https://github.com/rand0wn/voice-eval) - Regression harness for voice agents using scripted multi-turn scenarios.
