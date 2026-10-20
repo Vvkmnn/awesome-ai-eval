@@ -200,6 +200,7 @@
 
 ### Papers
 
+- [Don't Pass@k: A Bayesian Framework for Large Language Model Evaluation](https://arxiv.org/abs/2510.04265) - Bayesian scores with uncertainty (ICLR 2026). [Video](https://mohsenhariri.github.io/assets/videos/bayes-at-n/bayes-at-n.mp4). [Code](https://github.com/mohsenhariri/scorio).
 - [LLM-as-a-Judge Survey](https://arxiv.org/abs/2411.15594) - Survey on building reliable LLM judges and mitigating their biases.
 - [RAG Evaluation Survey](https://arxiv.org/abs/2405.07437) - Survey of metrics, judgments, and open problems in evaluating RAG.
 - [Who Validates the Validators?](https://arxiv.org/abs/2404.12272) - Paper on aligning LLM judges with human criteria through the EvalGen workflow.
