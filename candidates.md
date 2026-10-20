@@ -11,6 +11,7 @@ Projects proposed for the [main list](README.md) that are new or not yet widely 
 - [Council of AI GSPC](https://github.com/CSOAI-ORG/councilof-ai) - Public board of signed AI behaviour measurements across governance and safety axes.
 - [digline](https://github.com/digline/digline) - Regression testing for LLM apps against a versioned baseline of approved scores.
 - [fact-gate](https://github.com/AnonZ7/fact-gate) - Deterministic verification of AI-written text against diffs, measured facts, or prose.
+- [Firedrill](https://docs.firedrill.run/) - Simulates AI agents with optional synthetic tools, semantic scoring, exact checks, and retained evidence in customer-owned runners.
 - [ImageBench](https://imagebench.ai/) - Text-to-image comparisons with side-by-side results and published methodology.
 - [Jetty](https://jetty.io/) - Runs agent workloads in sandboxes and scores each run with checks and LLM judges.
 - [Mental Health LLM Eval](https://github.com/KarmaEnchanter/mental-health-llm-eval) - Five-rubric safety evaluation for mental-health prompts, with an Inspect AI adapter.
