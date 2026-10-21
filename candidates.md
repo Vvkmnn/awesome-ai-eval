@@ -22,3 +22,4 @@ Projects proposed for the [main list](README.md) that are new or not yet widely 
 - [semantix-ai](https://github.com/labrat-akhona/semantix-ai) - NLI judges, datasets, and audit trails for checking LLM outputs against regulatory clauses.
 - [ShopPay Audit Benchmark](https://github.com/Dmatut7/shoppay-audit-benchmark) - Spec-grounded business-logic audit tasks for coding agents.
 - [Voice Eval](https://github.com/rand0wn/voice-eval) - Regression harness for voice agents using scripted multi-turn scenarios.
+- [What's Missing in Autonomous Research?](https://www.researchgate.net/publication/406952713) - Systematization of 56 autonomous research systems mapping verification routes, benchmark targets, and evidence reliability.
