@@ -2,3 +2,5 @@
 # package.json
 .npm-cache
 node_modules
+.DS_Store
+.claude/
