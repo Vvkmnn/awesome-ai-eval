@@ -21,4 +21,5 @@ Projects proposed for the [main list](README.md) that are new or not yet widely 
 - [Respan](https://www.respan.ai/) - AI router with observability and automated evals for agent runs.
 - [semantix-ai](https://github.com/labrat-akhona/semantix-ai) - NLI judges, datasets, and audit trails for checking LLM outputs against regulatory clauses.
 - [ShopPay Audit Benchmark](https://github.com/Dmatut7/shoppay-audit-benchmark) - Spec-grounded business-logic audit tasks for coding agents.
+- [TIB-AK79](https://github.com/andruwka79-cloud/tib-ak79) - Benchmark harness that scores what agent actions changed in a mock environment and checks the agent's claims against the result.
 - [Voice Eval](https://github.com/rand0wn/voice-eval) - Regression harness for voice agents using scripted multi-turn scenarios.
