@@ -6,6 +6,7 @@ Projects proposed for the [main list](README.md) that are new or not yet widely 
 - [AI Eval Forge](https://github.com/MukundaKatta/ai-eval-forge) - Regression harness for LLM and agent outputs using deterministic checks such as regex, token F1, and JSON validity.
 - [AI Failure Mode Taxonomy](https://github.com/prashibadkur11-creator/ai-failure-mode-taxonomy) - Catalog of AI and LLM product failure modes with detection and mitigation for each.
 - [AI Prompt Quality](https://github.com/pntkrl/ai-prompt-quality) - Static prompt evaluation with a seven-dimension rubric and JSON scoring schema.
+- [agentest](https://github.com/srpadmanabhuni/agentest) - Offline runner that judges agent OpenTelemetry traces, A2A AgentCards and MCP tools against a 110-test checklist.
 - [align](https://github.com/ggrigo/align) - Human-in-the-loop evals for Claude Code that rate individual claims and archive corrections.
 - [ChatIntel](https://chatintel.ai/) - No-code toolkit for evaluating and measuring the consistency of AI output.
 - [Council of AI GSPC](https://github.com/CSOAI-ORG/councilof-ai) - Public board of signed AI behaviour measurements across governance and safety axes.
