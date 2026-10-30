@@ -2,6 +2,7 @@
 
 Projects proposed for the [main list](README.md) that are new or not yet widely used. Each is on topic and its link works. An entry moves to the main list once others are using it.
 
+- [Agent Retry Rodeo](https://github.com/RishabhPande/agent-retry-rodeo) - Local test range replaying lost acknowledgements and partial failures, then checking an agent's final state.
 - [Agentrial](https://github.com/alepot55/agentrial) - Runs agents repeatedly, computes confidence intervals, and flags regressions in CI.
 - [AI Eval Forge](https://github.com/MukundaKatta/ai-eval-forge) - Regression harness for LLM and agent outputs using deterministic checks such as regex, token F1, and JSON validity.
 - [AI Failure Mode Taxonomy](https://github.com/prashibadkur11-creator/ai-failure-mode-taxonomy) - Catalog of AI and LLM product failure modes with detection and mitigation for each.
