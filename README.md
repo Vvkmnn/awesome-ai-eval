@@ -1,6 +1,6 @@
 # Awesome AI Eval [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-<a href="https://github.com/Vvkmnn/awesome-ai-eval"><img src="./assets/robot-shades.svg" align="right" width="96" alt="Robot wearing pink shades"></a>
+<a href="https://github.com/Vvkmnn/awesome-ai-eval"><img src="./assets/robot-shades.svg" align="right" width="120" alt="Robot wearing pink shades"></a>
 
 > Assessing the reliability, accuracy, and safety of large language models, RAG pipelines, and AI agents.
 
