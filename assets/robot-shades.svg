@@ -1,6 +1,11 @@
 <svg width="464" height="368" viewBox="24 0 464 368" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Awesome AI Eval robot</title>
   <desc id="desc">Robot face wearing pink awesome shades</desc>
+  <style>
+    .glint { animation: glint 6s cubic-bezier(0.4, 0, 0.2, 1) 1s infinite; }
+    @keyframes glint { 0% { transform: translateX(0); } 10% { transform: translateX(1200px); } 100% { transform: translateX(1200px); } }
+    @media (prefers-reduced-motion: reduce) { .glint { animation: none; } }
+  </style>
   <svg x="72" y="0" width="368" height="368" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5 11C6.94772 11 6.5 11.4477 6.5 12C6.5 12.5523 6.94772 13 7.5 13C8.05228 13 8.5 12.5523 8.5 12C8.5 11.4477 8.05228 11 7.5 11ZM5.5 12C5.5 10.8954 6.39543 10 7.5 10C8.60457 10 9.5 10.8954 9.5 12C9.5 13.1046 8.60457 14 7.5 14C6.39543 14 5.5 13.1046 5.5 12Z" fill="#8B8FA3"/>
     <path fill-rule="evenodd" clip-rule="evenodd" d="M16.5 11C15.9477 11 15.5 11.4477 15.5 12C15.5 12.5523 15.9477 13 16.5 13C17.0523 13 17.5 12.5523 17.5 12C17.5 11.4477 17.0523 11 16.5 11ZM14.5 12C14.5 10.8954 15.3954 10 16.5 10C17.6046 10 18.5 10.8954 18.5 12C18.5 13.1046 17.6046 14 16.5 14C15.3954 14 14.5 13.1046 14.5 12Z" fill="#8B8FA3"/>
@@ -9,5 +14,8 @@
   </svg>
   <svg x="24" y="20" width="464" height="329" viewBox="-28.3 -167.1 700 700" xmlns="http://www.w3.org/2000/svg">
     <path fill="#FC60A8" d="M614.2 91l-150-137.6-21.1 23L568.1 91H75.4l125-114.7-21.1-23L29.3 91h-.1v90.7c0 41 39.5 74.4 88 74.4h92.5c48.5 0 88-33.4 88-74.4v-59.6h48v59.6c0 41 39.5 74.4 88 74.4h92.5c48.5 0 88-33.4 88-74.4V91z"/>
+    <clipPath id="shades"><path d="M614.2 91l-150-137.6-21.1 23L568.1 91H75.4l125-114.7-21.1-23L29.3 91h-.1v90.7c0 41 39.5 74.4 88 74.4h92.5c48.5 0 88-33.4 88-74.4v-59.6h48v59.6c0 41 39.5 74.4 88 74.4h92.5c48.5 0 88-33.4 88-74.4V91z"/></clipPath>
+    <linearGradient id="shine" x1="0" x2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.9"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+    <g clip-path="url(#shades)"><g transform="skewX(-28)"><rect class="glint" x="-320" y="-300" width="110" height="900" fill="url(#shine)"/><rect class="glint" x="-190" y="-300" width="22" height="900" fill="url(#shine)" opacity="0.7"/></g></g>
   </svg>
 </svg>

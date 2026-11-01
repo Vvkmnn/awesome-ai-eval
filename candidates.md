@@ -2,6 +2,8 @@
 
 Projects proposed for the [main list](README.md) that are new or not yet widely used. Each is on topic and its link works. An entry moves to the main list once others are using it.
 
+- [Agent Retry Rodeo](https://github.com/RishabhPande/agent-retry-rodeo) - Local test range that replays lost acknowledgements and partial failures, then checks an agent's final state.
+- [agentest](https://github.com/srpadmanabhuni/agentest) - Offline, deterministic checks of agent OpenTelemetry traces, A2A AgentCards, and MCP tools, with no LLM judge.
 - [Agentrial](https://github.com/alepot55/agentrial) - Runs agents repeatedly, computes confidence intervals, and flags regressions in CI.
 - [AI Eval Forge](https://github.com/MukundaKatta/ai-eval-forge) - Regression harness for LLM and agent outputs using deterministic checks such as regex, token F1, and JSON validity.
 - [AI Failure Mode Taxonomy](https://github.com/prashibadkur11-creator/ai-failure-mode-taxonomy) - Catalog of AI and LLM product failure modes with detection and mitigation for each.
@@ -11,6 +13,7 @@ Projects proposed for the [main list](README.md) that are new or not yet widely 
 - [Council of AI GSPC](https://github.com/CSOAI-ORG/councilof-ai) - Public board of signed AI behaviour measurements across governance and safety axes.
 - [digline](https://github.com/digline/digline) - Regression testing for LLM apps against a versioned baseline of approved scores.
 - [fact-gate](https://github.com/AnonZ7/fact-gate) - Deterministic verification of AI-written text against diffs, measured facts, or prose.
+- [Firedrill](https://docs.firedrill.run/) - Simulates AI agents with optional synthetic tools, semantic scoring, exact checks, and retained evidence in customer-owned runners.
 - [ImageBench](https://imagebench.ai/) - Text-to-image comparisons with side-by-side results and published methodology.
 - [Jetty](https://jetty.io/) - Runs agent workloads in sandboxes and scores each run with checks and LLM judges.
 - [Mental Health LLM Eval](https://github.com/KarmaEnchanter/mental-health-llm-eval) - Five-rubric safety evaluation for mental-health prompts, with an Inspect AI adapter.
@@ -21,4 +24,6 @@ Projects proposed for the [main list](README.md) that are new or not yet widely 
 - [Respan](https://www.respan.ai/) - AI router with observability and automated evals for agent runs.
 - [semantix-ai](https://github.com/labrat-akhona/semantix-ai) - NLI judges, datasets, and audit trails for checking LLM outputs against regulatory clauses.
 - [ShopPay Audit Benchmark](https://github.com/Dmatut7/shoppay-audit-benchmark) - Spec-grounded business-logic audit tasks for coding agents.
+- [TestMu AI Agent Testing](https://www.testmuai.com/agent-testing/) - Tests chat, voice, and phone agents through simulated conversations and real calls, including their tool calls.
+- [TIB-AK79](https://github.com/andruwka79-cloud/tib-ak79) - Scores what agent actions changed in a mock environment and checks the agent's claims against the result.
 - [Voice Eval](https://github.com/rand0wn/voice-eval) - Regression harness for voice agents using scripted multi-turn scenarios.
