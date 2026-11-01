@@ -35,6 +35,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ### Agents
 
+- [Agent Retry Rodeo](https://github.com/RishabhPande/agent-retry-rodeo) - Local test range that replays lost acknowledgements and partial failures, then checks an agent's final state.
 - [AgentBench](https://github.com/THUDM/AgentBench) - LLMs acting as agents across operating system, database, web, and game environments.
 - [AppWorld](https://github.com/StonyBrookNLP/appworld) - Controllable world of apps and simulated people for benchmarking function calling and interactive coding agents.
 - [AstaBench](https://allenai.org/blog/astabench) - Scientific research tasks covering literature review, replication, and data analysis.
@@ -52,12 +53,14 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 - [MLE-bench](https://github.com/openai/mle-bench) - Kaggle competitions measuring agents on machine learning engineering.
 - [OpenAI Frontier Evals](https://github.com/openai/frontier-evals) - PaperBench, SWE-Lancer, and EVMbench: paper replication, freelance coding, and smart contract security tasks.
 - [OSWorld](https://github.com/xlang-ai/OSWorld) - Computer tasks in real desktop environments for multimodal agents.
+- [ShopPay Audit Benchmark](https://github.com/Dmatut7/shoppay-audit-benchmark) - Spec-grounded business-logic audit tasks for coding agents.
 - [SuperCLUE-Agent](https://github.com/CLUEbenchmark/SuperCLUE-Agent) - Chinese agent evaluation covering tool use, planning, and memory.
 - [SWE-bench](https://github.com/SWE-bench/SWE-bench) - Real GitHub issues that coding agents must resolve.
 - [SWE-bench Live](https://swe-bench-live.github.io/) - Continuously refreshed issues to limit contamination.
 - [SWE-bench Pro](https://labs.scale.com/leaderboard/swe_bench_pro) - Long-horizon coding problems drawn from public, commercial, and held-out repositories.
 - [tau2-bench](https://github.com/sierra-research/tau2-bench) - Customer-service simulations testing tool use and policy adherence against a simulated user.
 - [Terminal-Bench](https://github.com/harbor-framework/terminal-bench) - Continuously updated benchmark of difficult command-line tasks for agents.
+- [TIB-AK79](https://github.com/andruwka79-cloud/tib-ak79) - Scores what agent actions changed in a mock environment and checks the agent's claims against the result.
 - [WebArena](https://github.com/web-arena-x/webarena) - Self-hosted websites for evaluating autonomous web agents.
 
 ### General
@@ -97,6 +100,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 - [MME](https://arxiv.org/abs/2306.13394) - Perception and cognition across 14 subtasks.
 - [MMMU-Pro](https://mmmu-benchmark.github.io/) - Harder version of MMMU with expert-level multimodal questions.
 - [MMT-Bench](https://github.com/OpenGVLab/MMT-Bench) - 31K+ questions across image, text, video, and point-cloud inputs.
+- [PaperEdits Agentic Video Benchmark](https://paperedits.com/benchmarking/gemini-agentic-video-understanding-benchmark) - Exploratory benchmark of agentic and static video processing on long-form editing tasks.
 - [Video-MME](https://video-mme.github.io/) - Video understanding across short, medium, and long clips.
 
 ### Safety
@@ -129,9 +133,12 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 - [ARC Prize Leaderboard](https://arcprize.org/leaderboard) - ARC-AGI scores for frontier models and open submissions.
 - [Arena](https://arena.ai/) - Crowdsourced head-to-head model voting, formerly LMArena.
 - [CompassRank](https://rank.opencompass.org.cn/home) - OpenCompass rankings across multi-domain suites.
+- [Council of AI GSPC](https://github.com/CSOAI-ORG/councilof-ai) - Public board of signed AI behaviour measurements across governance and safety axes.
 - [Epoch AI Benchmarking Hub](https://epoch.ai/benchmarks) - Epoch AI results for leading models on challenging benchmarks.
 - [HELM Leaderboards](https://crfm.stanford.edu/helm/latest/) - Stanford results across HELM scenarios and metrics.
+- [ImageBench](https://imagebench.ai/) - Text-to-image comparisons with side-by-side results and published methodology.
 - [MathArena](https://matharena.ai/) - Evaluation of LLMs on the latest math competitions, run after each contest.
+- [ModelBenchmark](https://modelbenchmark.io) - Public benchmark scores, prices, and context windows gathered per model.
 - [Open LLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard) - Hugging Face rankings of open models on IFEval, MMLU-Pro, GPQA, and more.
 - [Open Medical-LLM Leaderboard](https://huggingface.co/blog/leaderboard-medicalllm) - Hugging Face rankings on medical question answering.
 - [Scale SEAL Leaderboard](https://scale.com/leaderboard) - Expert-rated rankings for reasoning, coding, and safety.
@@ -149,20 +156,26 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 - [Athina AI](https://www.athina.ai/) - Evaluation and monitoring platform with preset evals and VPC deployment.
 - [Braintrust](https://www.braintrust.dev/) - Evaluation and observability platform with experiments, datasets, and CI regression tests.
+- [ChatIntel](https://chatintel.ai/) - No-code toolkit for evaluating and measuring the consistency of AI output.
 - [Confident AI](https://www.confident-ai.com/) - DeepEval-backed platform for scheduled eval suites and production monitoring.
 - [Datadog LLM Observability](https://www.datadoghq.com/product/llm-observability/) - LLM traces, quality metrics, and safety signals inside Datadog.
 - [Deepchecks LLM Evaluation](https://www.deepchecks.com/solutions/llm-evaluation/) - Managed eval suites with dataset versioning and alerting.
+- [Firedrill](https://docs.firedrill.run/) - Simulates AI agents with optional synthetic tools, semantic scoring, exact checks, and retained evidence in customer-owned runners.
 - [Future AGI](https://futureagi.com/) - Evaluation, simulation, and optimization platform for multimodal AI systems.
 - [Galileo](https://www.galileo.ai/) - Observability and evaluation platform with built-in metrics and guardrails.
 - [HoneyHive](https://www.honeyhive.ai/) - Agent observability and evaluation platform with prompt versioning.
+- [Jetty](https://jetty.io/) - Runs agent workloads in sandboxes and scores each run with checks and LLM judges.
 - [LangSmith](https://smith.langchain.com/) - Tracing, datasets, and batch evals with regression gating.
 - [Lunary](https://lunary.ai/) - Observability and prompt management platform for LLM apps.
 - [PromptLayer](https://www.promptlayer.com/) - Prompt management with version control and evaluation tracking.
+- [Respan](https://www.respan.ai/) - AI gateway with tracing, monitoring, red teaming, and evaluators that score test sets and production traffic.
+- [TestMu AI Agent Testing](https://www.testmuai.com/agent-testing/) - Tests chat, voice, and phone agents through simulated conversations and real calls, including their tool calls.
 - [W&B Weave](https://wandb.ai/site/evaluations/) - Evaluation toolkit with dataset versioning, scorers, and comparison dashboards.
 
 ### Self-Hosted
 
 - [Arize Phoenix](https://github.com/Arize-ai/phoenix) - OpenTelemetry-native tracing and evaluation for RAG, LLMs, and agents.
+- [Bifrost](https://github.com/maximhq/bifrost) - Self-hosted AI gateway with LLM-judge guardrails and evaluation integrations such as Patronus AI.
 - [Giskard](https://github.com/giskard-ai/giskard-oss) - Testing library that scans LLM apps for vulnerabilities and quality issues.
 - [Helicone](https://github.com/Helicone/helicone) - AI gateway and observability platform with cost tracking and evaluation integrations.
 - [Langfuse](https://github.com/langfuse/langfuse) - Engineering platform for tracing, evals, datasets, and prompt management.
@@ -177,6 +190,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 ### Guides
 
 - [AI Evals for Engineers & PMs](https://maven.com/parlance-labs/evals) - Cohort course by Hamel Husain and Shreya Shankar.
+- [AI Failure Mode Taxonomy](https://github.com/prashibadkur11-creator/ai-failure-mode-taxonomy) - Catalog of AI and LLM product failure modes with detection and mitigation for each.
 - [AlignEval](https://eugeneyan.com/writing/aligneval/) - Eugene Yan on building and aligning LLM judges.
 - [Applied LLMs](https://applied-llms.org/) - Lessons from a year of building with LLMs, with evaluation as a core practice.
 - [Comparing LLMs on Real-World Retrieval](https://www.sh-reya.com/blog/needle-in-the-real-world/) - How models perform on practical retrieval tasks.
@@ -216,6 +230,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 - [LLM-as-a-Judge Survey](https://arxiv.org/abs/2411.15594) - Survey on building reliable LLM judges and mitigating their biases.
 - [RAG Evaluation Survey](https://arxiv.org/abs/2405.07437) - Survey of metrics, judgments, and open problems in evaluating RAG.
 - [The Leaderboard Illusion](https://arxiv.org/abs/2504.20879) - Analysis of systematic issues that distort Chatbot Arena rankings.
+- [What's Missing in Autonomous Research?](https://www.researchgate.net/publication/406952713) - Survey mapping autonomous research systems against their benchmarks and verification methods.
 - [Who Validates the Validators?](https://arxiv.org/abs/2404.12272) - Paper on aligning LLM judges with human criteria through the EvalGen workflow.
 
 ## Tools
@@ -230,15 +245,23 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ### Frameworks
 
+- [Agent Stack](https://github.com/MukundaKatta/agent-stack) - Libraries for agent reliability, including snapshot tests for tool-call traces, tool-argument validation, and structured output with retry.
+- [agentest](https://github.com/srpadmanabhuni/agentest) - Offline, deterministic checks of agent OpenTelemetry traces, A2A AgentCards, and MCP tools, with no LLM judge.
+- [Agentrial](https://github.com/alepot55/agentrial) - Runs agents repeatedly, computes confidence intervals, and flags regressions in CI.
 - [agenttrace](https://github.com/luoyuctl/agenttrace) - Terminal UI for reviewing coding-agent sessions by cost, failures, latency, and diffs.
+- [AI Eval Forge](https://github.com/MukundaKatta/ai-eval-forge) - Regression harness for LLM and agent outputs using deterministic checks such as regex, token F1, and JSON validity.
+- [AI Prompt Quality](https://github.com/pntkrl/ai-prompt-quality) - Static prompt evaluation with a seven-dimension rubric and JSON scoring schema.
 - [Aleph Alpha Eval Framework](https://github.com/Aleph-Alpha-Research/eval-framework) - Evaluation framework with built-in benchmarks for reasoning, coding, and safety.
+- [align](https://github.com/ggrigo/align) - Human-in-the-loop evals for Claude Code that rate individual claims and archive corrections.
 - [autoevals](https://github.com/braintrustdata/autoevals) - Scorers for LLM outputs, from string heuristics to model-graded factuality, in Python and TypeScript.
 - [Bloom](https://github.com/safety-research/bloom) - Agentic framework that generates behavioral evaluations of frontier models from a described behavior.
 - [ChainForge](https://github.com/ianarawjo/ChainForge) - Visual environment for comparing prompts and models and scoring responses.
 - [ColossalEval](https://github.com/hpcaitech/ColossalAI/tree/main/applications/ColossalEval) - Pipeline combining classic metrics with GPT-assisted scoring across public datasets.
 - [DeepEval](https://github.com/confident-ai/deepeval) - Unit-test style metrics for hallucination, relevance, toxicity, and bias.
+- [digline](https://github.com/digline/digline) - Regression testing for LLM apps against a versioned baseline of approved scores.
 - [EvalScope](https://github.com/modelscope/evalscope) - ModelScope framework for evaluating and benchmarking LLMs, vision-language models, and generative models.
 - [Evidently](https://github.com/evidentlyai/evidently) - Evaluation and monitoring library for ML and LLM systems.
+- [fact-gate](https://github.com/AnonZ7/fact-gate) - Deterministic verification of AI-written text against diffs, measured facts, or prose.
 - [Harbor](https://github.com/harbor-framework/harbor) - Framework for evaluating and optimizing agents and models in containers; the official Terminal-Bench 2.0 harness.
 - [HELM](https://github.com/stanford-crfm/helm) - Stanford framework for evaluating foundation models across scenarios and metrics.
 - [Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai) - UK AI Security Institute framework for scripted evals with tool calls and model-graded scoring.
@@ -247,6 +270,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 - [LM Evaluation Harness](https://github.com/EleutherAI/lm-evaluation-harness) - Harness for running language models on hundreds of academic benchmarks.
 - [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval) - Multimodal evaluation toolkit covering text, image, video, and audio tasks.
 - [MLflow](https://github.com/mlflow/mlflow) - Evaluation API that logs judge scores alongside experiment tracking runs.
+- [Narrative Scorer](https://github.com/cittaverse/narrative-scorer) - Scoring library for Chinese autobiographical narratives in reminiscence therapy.
 - [OpenAI Evals](https://github.com/openai/evals) - Framework and registry of evals for LLMs and LLM systems.
 - [OpenAI simple-evals](https://github.com/openai/simple-evals) - Reference implementations of standard benchmarks such as MMLU, GPQA, and HumanEval.
 - [OpenCompass](https://github.com/open-compass/opencompass) - Evaluation platform with LLM judge support across knowledge, reasoning, and coding datasets.
@@ -254,8 +278,10 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 - [OpenJudge](https://github.com/agentscope-ai/OpenJudge) - Framework of graders for evaluating agents and chatbots and producing quality rewards.
 - [Prompt Flow](https://github.com/microsoft/promptflow) - Flow builder with built-in evaluation flows and CI integration.
 - [Promptfoo](https://github.com/promptfoo/promptfoo) - CLI for testing and red teaming prompts, RAG flows, and agents with regression detection.
+- [semantix-ai](https://github.com/labrat-akhona/semantix-ai) - NLI judges, datasets, and audit trails for checking LLM outputs against regulatory clauses.
 - [skill-optimizer](https://github.com/fastxyz/skill-optimizer) - Docker workbench and agent skill for running deterministic evals against agent skills.
 - [TruLens](https://github.com/truera/trulens) - Feedback functions for evaluating and tracing chains and agents.
+- [Voice Eval](https://github.com/rand0wn/voice-eval) - Regression harness for voice agents using scripted multi-turn scenarios.
 
 ### Retrieval
 
@@ -264,6 +290,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 - [MTEB](https://github.com/embeddings-benchmark/mteb) - Embedding benchmark measuring retrieval, reranking, and similarity quality.
 - [Open RAG Eval](https://github.com/vectara/open-rag-eval) - Vectara harness with UMBRELA and AutoNuggetizer metrics that need no golden answers.
 - [Ragas](https://github.com/vibrantlabsai/ragas) - Metrics for answer quality, context relevance, and faithfulness in RAG pipelines.
+- [RagCiteCheck](https://github.com/ppon1086/ragcitecheck) - Measures document-level and span-level evidence stability in RAG pipelines across runs.
 - [RAGTruth](https://github.com/ParticleMedia/RAGTruth) - Human-annotated hallucination corpus for RAG answers.
 - [UltraRAG](https://github.com/OpenBMB/UltraRAG) - MCP-based RAG framework with built-in evaluation workflows.
 

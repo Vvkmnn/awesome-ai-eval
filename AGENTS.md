@@ -7,7 +7,6 @@ Instructions for AI agents working in this repository. The full procedure is in 
 A curated list of tools, benchmarks, platforms, and guides for evaluating language models, RAG pipelines, and AI agents.
 
 - `README.md` is the list: projects that are documented, maintained, and used by others.
-- `candidates.md` holds on-topic projects that are new or not yet widely used.
 - `archive.md` holds entries that are archived, unmaintained, or discontinued, each with a reason.
 - `CONTRIBUTING.md` holds the scope, placement, and format rules.
 

@@ -1,6 +1,6 @@
 ---
 name: awesome-ai-eval
-description: Use when working in the awesome-ai-eval repository or with its list - choosing an AI evaluation framework, benchmark, or platform from the list; adding or proposing an entry; reviewing a pull request; checking links; moving entries to the candidates or archive file; or updating the sindresorhus/awesome submission.
+description: Use when working in the awesome-ai-eval repository or with its list - choosing an AI evaluation framework, benchmark, or platform from the list; adding or proposing an entry; reviewing a pull request; checking links; moving entries to the archive file; or updating the sindresorhus/awesome submission.
 ---
 
 # Awesome AI Eval
@@ -37,20 +37,20 @@ To find the right tool for someone:
 5. Shortlist two or three entries that fit, and say in one sentence each why it fits.
 6. Open each shortlisted repository. Confirm it is not archived and still does what the entry says.
 
-`candidates.md` holds new or little-used projects; mention one only when nothing on the main list fits, and say that it is new. Do not recommend from `archive.md`.
+Do not recommend from `archive.md`.
 
 ## Add
 
 `CONTRIBUTING.md` holds the rules. Read it first; it is short. In brief:
 
-1. Search `README.md`, `candidates.md`, and `archive.md` for the name and URL. Stop if it is listed.
+1. Search `README.md` and `archive.md` for the name and URL. Stop if it is listed.
 2. Check the project's main purpose is evaluating AI systems, the link loads without a login, and the repository is not archived:
 
    ```sh
    gh api repos/OWNER/REPO --jq '{archived, stargazers_count, pushed_at, description}'
    ```
 
-3. Choose the file. `README.md` if the project is documented, maintained, and used by others (as a guide, 50 stars or a published paper). Otherwise `candidates.md`.
+3. Check the bar: on topic, a working link, and something useful for evaluating AI systems. New or small projects are welcome; decline only what is out of scope, broken, or duplicated.
 4. Add one line in alphabetical order:
 
    ```markdown
@@ -71,7 +71,7 @@ For each open pull request:
 
 1. Read the diff. It should change one line of one file.
 2. Check the scope and placement rules in `CONTRIBUTING.md`.
-3. On topic and widely used: accept into `README.md`. On topic but new: accept into `candidates.md`. Out of scope, or the link fails: decline.
+3. On topic and meets the bar: accept into `README.md`. Out of scope, the link fails, or a duplicate: decline, stating what happened in one plain sentence.
 4. Fix formatting yourself; a formatting mistake is not a reason to decline.
 5. Accepting: if the pull request adds one correctly formatted line to the right file, merge it. Before merging, remove extra links, counts that will change, and marketing words, and move the line into alphabetical order; push those fixes to the contributor's branch when allowed, otherwise apply them after merging. If the pull request touches other files or uses an old format, add the entry by hand, then close it with a reply that says where the entry went.
 
@@ -133,7 +133,7 @@ Check that each returned title names the entry or the paper that introduced it. 
 
 ### Archive
 
-Move an entry to `archive.md` when its repository is archived, when a tool has had no commits for 12 months, or when the product is gone or has changed into something else. Write the reason after the description. A finished benchmark or dataset stays on the list. Move an entry from `candidates.md` to `README.md` when others are using it.
+Move an entry to `archive.md` when its repository is archived, when a tool has had no commits for 12 months, or when the product is gone or has changed into something else. Write the reason after the description. A finished benchmark or dataset stays on the list.
 
 ### Rules
 
@@ -149,7 +149,6 @@ Move an entry to `archive.md` when its repository is archived, when a tool has h
 | File | Purpose |
 | --- | --- |
 | `README.md` | The curated list. |
-| `candidates.md` | On-topic projects that are new or not yet widely used. |
 | `archive.md` | Entries that are archived, unmaintained, or discontinued, each with a reason. |
 | `CONTRIBUTING.md` | The rules for scope, placement, and format. |
 | `AGENTS.md` | Short instructions for any AI agent; points here. `CLAUDE.md` imports it. |
