@@ -61,6 +61,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 - [tau2-bench](https://github.com/sierra-research/tau2-bench) - Customer-service simulations testing tool use and policy adherence against a simulated user.
 - [Terminal-Bench](https://github.com/harbor-framework/terminal-bench) - Continuously updated benchmark of difficult command-line tasks for agents.
 - [TIB-AK79](https://github.com/andruwka79-cloud/tib-ak79) - Scores what agent actions changed in a mock environment and checks the agent's claims against the result.
+- [Tripwire](https://github.com/Jott2121/tripwire) - Pre-registered tests of whether tool-using agents notice wrong engineering data and act on it, scored without an LLM judge.
 - [WebArena](https://github.com/web-arena-x/webarena) - Self-hosted websites for evaluating autonomous web agents.
 
 ### General
