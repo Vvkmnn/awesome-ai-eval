@@ -271,6 +271,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 - [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval) - Multimodal evaluation toolkit covering text, image, video, and audio tasks.
 - [MLflow](https://github.com/mlflow/mlflow) - Evaluation API that logs judge scores alongside experiment tracking runs.
 - [Narrative Scorer](https://github.com/cittaverse/narrative-scorer) - Scoring library for Chinese autobiographical narratives in reminiscence therapy.
+- [NinFenz Evidence Gate](https://github.com/Monyeah777/NinFenz) - Deterministic pre-publication checks for AI-generated documentation using versioned contracts and reproducible PASS/FAIL evidence.
 - [OpenAI Evals](https://github.com/openai/evals) - Framework and registry of evals for LLMs and LLM systems.
 - [OpenAI simple-evals](https://github.com/openai/simple-evals) - Reference implementations of standard benchmarks such as MMLU, GPQA, and HumanEval.
 - [OpenCompass](https://github.com/open-compass/opencompass) - Evaluation platform with LLM judge support across knowledge, reasoning, and coding datasets.
