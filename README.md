@@ -123,6 +123,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 - [HealthBench](https://arxiv.org/abs/2505.08775) - Multi-turn health conversations graded against rubrics written by physicians.
 - [HumanEval](https://github.com/openai/human-eval) - Hand-written programming problems checked by unit tests. Complete and no longer updated.
 - [LAiW](https://github.com/Dai-shen/LAiW) - Chinese legal benchmark covering retrieval, inference, and case application.
+- [LifeSci Diamond](https://github.com/arcainc/lifesci-diamond) - Regulatory affairs deliverables graded against task-specific rubrics by an LLM jury.
 - [LiveCodeBench](https://github.com/LiveCodeBench/LiveCodeBench) - Contamination-free code evaluation built from newly published competitive programming problems.
 - [MATH](https://github.com/hendrycks/math) - Competition mathematics problems with step-by-step solutions.
 - [MBPP](https://github.com/google-research/google-research/tree/master/mbpp) - Entry-level Python programming problems with tests.
