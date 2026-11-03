@@ -276,6 +276,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 - [OpenCompass](https://github.com/open-compass/opencompass) - Evaluation platform with LLM judge support across knowledge, reasoning, and coding datasets.
 - [openevals](https://github.com/langchain-ai/openevals) - Evaluators for LLM apps, including LLM judge and structured-output checks.
 - [OpenJudge](https://github.com/agentscope-ai/OpenJudge) - Framework of graders for evaluating agents and chatbots and producing quality rewards.
+- [Ponder](https://github.com/Quinnod345/ponder) - Coverage-gated review ledger that prevents coding agents from quitting early until all units are graded and passes converge.
 - [Prompt Flow](https://github.com/microsoft/promptflow) - Flow builder with built-in evaluation flows and CI integration.
 - [Promptfoo](https://github.com/promptfoo/promptfoo) - CLI for testing and red teaming prompts, RAG flows, and agents with regression detection.
 - [semantix-ai](https://github.com/labrat-akhona/semantix-ai) - NLI judges, datasets, and audit trails for checking LLM outputs against regulatory clauses.
