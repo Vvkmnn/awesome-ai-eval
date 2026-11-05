@@ -62,6 +62,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 - [Terminal-Bench](https://github.com/harbor-framework/terminal-bench) - Continuously updated benchmark of difficult command-line tasks for agents.
 - [TIB-AK79](https://github.com/andruwka79-cloud/tib-ak79) - Scores what agent actions changed in a mock environment and checks the agent's claims against the result.
 - [WebArena](https://github.com/web-arena-x/webarena) - Self-hosted websites for evaluating autonomous web agents.
+- [WebsiteBench](https://github.com/TIGER-AI-Lab/WebsiteBench) - Evaluates agents rebuilding full-stack websites from browser exploration.
 
 ### General
 
