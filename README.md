@@ -280,6 +280,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 - [Promptfoo](https://github.com/promptfoo/promptfoo) - CLI for testing and red teaming prompts, RAG flows, and agents with regression detection.
 - [semantix-ai](https://github.com/labrat-akhona/semantix-ai) - NLI judges, datasets, and audit trails for checking LLM outputs against regulatory clauses.
 - [skill-optimizer](https://github.com/fastxyz/skill-optimizer) - Docker workbench and agent skill for running deterministic evals against agent skills.
+- [skillprobe](https://github.com/AndreySukhanov/skillprobe) - Eval harness for agent skills that measures SKILL.md triggering, routing collisions and instruction following with repeated trials and confidence intervals.
 - [TruLens](https://github.com/truera/trulens) - Feedback functions for evaluating and tracing chains and agents.
 - [Voice Eval](https://github.com/rand0wn/voice-eval) - Regression harness for voice agents using scripted multi-turn scenarios.
 
