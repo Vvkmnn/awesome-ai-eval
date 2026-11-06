@@ -225,6 +225,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 ### Papers
 
 - [Adding Error Bars to Evals](https://arxiv.org/abs/2411.00640) - Statistical methods for analyzing and reporting uncertainty in language model evaluations.
+- [Consistency Is Not Understanding: Orbit Audits for Neural Field Weight Readers](https://arxiv.org/abs/2611.05798) - Audits neural-field weight readers, separating recognition accuracy from invariance under function-preserving neuron permutations and positive ReLU rescalings.
 - [Don't Pass@k](https://arxiv.org/abs/2510.04265) - Bayesian framework that reports LLM evaluation results with uncertainty in place of pass@k.
 - [Establishing Best Practices for Building Rigorous Agentic Benchmarks](https://arxiv.org/abs/2507.02825) - Checklist for avoiding task and reward design flaws in agent benchmarks.
 - [LLM-as-a-Judge Survey](https://arxiv.org/abs/2411.15594) - Survey on building reliable LLM judges and mitigating their biases.
