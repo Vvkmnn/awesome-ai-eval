@@ -142,6 +142,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 - [Open LLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard) - Hugging Face rankings of open models on IFEval, MMLU-Pro, GPQA, and more.
 - [Open Medical-LLM Leaderboard](https://huggingface.co/blog/leaderboard-medicalllm) - Hugging Face rankings on medical question answering.
 - [Scale SEAL Leaderboard](https://scale.com/leaderboard) - Expert-rated rankings for reasoning, coding, and safety.
+- [Spring Prompt](https://springprompt.com/benchmarks/about) - Business-task benchmarks for product listings, slide decks, survey analysis, and ad budgets, with open CC BY data.
 - [Vectara Hallucination Leaderboard](https://github.com/vectara/hallucination-leaderboard) - Ranks LLMs by how often they hallucinate when summarizing short documents.
 
 ## Platforms
