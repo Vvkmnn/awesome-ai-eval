@@ -247,6 +247,7 @@ Evaluation is how you know if your AI actually works (and not hallucinating). Th
 
 ## Leaderboards
 
+- ![](https://img.shields.io/badge/airbench.ai-active-blue?style=social) [**airbench**](https://airbench.ai/leaderboard) - Agent leaderboard by model, harness and GPU, local or hosted, on pass-or-fail vision, code and computer-use tasks.
 - ![](https://img.shields.io/badge/arcprize.org-active-blue?style=social) [**ARC Prize Leaderboard**](https://arcprize.org/leaderboard) - AGI reasoning leaderboard tracking ARC-AGI-2 performance across frontier models and open submissions.
 - ![](https://img.shields.io/badge/rank.opencompass.org.cn-active-blue?style=social) [**CompassRank**](https://rank.opencompass.org.cn/home) - OpenCompass leaderboard comparing frontier and research models across multi-domain suites.
 - ![](https://img.shields.io/badge/llmbench.ai-active-blue?style=social) [**LLM Agents Benchmark Collections**](https://llmbench.ai/) - Aggregated leaderboard comparing multi-agent safety and reliability suites.
