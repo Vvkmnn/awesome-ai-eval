@@ -273,6 +273,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 - [Narrative Scorer](https://github.com/cittaverse/narrative-scorer) - Scoring library for Chinese autobiographical narratives in reminiscence therapy.
 - [OpenAI Evals](https://github.com/openai/evals) - Framework and registry of evals for LLMs and LLM systems.
 - [OpenAI simple-evals](https://github.com/openai/simple-evals) - Reference implementations of standard benchmarks such as MMLU, GPQA, and HumanEval.
+- [OpenBench AI](https://github.com/lakshaychhaba0001-sys/openbench-ai) - Statistical comparison of LLMs with paired tests, confidence intervals, repeated runs, blinded preference studies, and dataset audits.
 - [OpenCompass](https://github.com/open-compass/opencompass) - Evaluation platform with LLM judge support across knowledge, reasoning, and coding datasets.
 - [openevals](https://github.com/langchain-ai/openevals) - Evaluators for LLM apps, including LLM judge and structured-output checks.
 - [OpenJudge](https://github.com/agentscope-ai/OpenJudge) - Framework of graders for evaluating agents and chatbots and producing quality rewards.
