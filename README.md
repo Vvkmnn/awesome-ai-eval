@@ -139,6 +139,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 - [ImageBench](https://imagebench.ai/) - Text-to-image comparisons with side-by-side results and published methodology.
 - [MathArena](https://matharena.ai/) - Evaluation of LLMs on the latest math competitions, run after each contest.
 - [ModelBenchmark](https://modelbenchmark.io) - Public benchmark scores, prices, and context windows gathered per model.
+- [Models Rank](https://modelsrank.org/en/) - Weekly table of public third-party evaluations. Default ranking uses Artificial Analysis; Arena scores are listed separately.
 - [Open LLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard) - Hugging Face rankings of open models on IFEval, MMLU-Pro, GPQA, and more.
 - [Open Medical-LLM Leaderboard](https://huggingface.co/blog/leaderboard-medicalllm) - Hugging Face rankings on medical question answering.
 - [Scale SEAL Leaderboard](https://scale.com/leaderboard) - Expert-rated rankings for reasoning, coding, and safety.
