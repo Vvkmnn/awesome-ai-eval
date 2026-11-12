@@ -281,6 +281,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 - [semantix-ai](https://github.com/labrat-akhona/semantix-ai) - NLI judges, datasets, and audit trails for checking LLM outputs against regulatory clauses.
 - [skill-optimizer](https://github.com/fastxyz/skill-optimizer) - Docker workbench and agent skill for running deterministic evals against agent skills.
 - [TruLens](https://github.com/truera/trulens) - Feedback functions for evaluating and tracing chains and agents.
+- [Verdict](https://github.com/Ustay-coder/verdict) - CLI that runs one rubric on several decision models and shows the cases where their answers differ.
 - [Voice Eval](https://github.com/rand0wn/voice-eval) - Regression harness for voice agents using scripted multi-turn scenarios.
 
 ### Retrieval
