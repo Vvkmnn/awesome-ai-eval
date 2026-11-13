@@ -53,6 +53,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 - [MLE-bench](https://github.com/openai/mle-bench) - Kaggle competitions measuring agents on machine learning engineering.
 - [OpenAI Frontier Evals](https://github.com/openai/frontier-evals) - PaperBench, SWE-Lancer, and EVMbench: paper replication, freelance coding, and smart contract security tasks.
 - [OSWorld](https://github.com/xlang-ai/OSWorld) - Computer tasks in real desktop environments for multimodal agents.
+- [PerspectiveGap](https://github.com/WhymustIhaveaname/PerspectiveGap) - Measures how well models split context among sub-agents and write orchestration prompts across 110 multi-agent scenarios.
 - [ShopPay Audit Benchmark](https://github.com/Dmatut7/shoppay-audit-benchmark) - Spec-grounded business-logic audit tasks for coding agents.
 - [SuperCLUE-Agent](https://github.com/CLUEbenchmark/SuperCLUE-Agent) - Chinese agent evaluation covering tool use, planning, and memory.
 - [SWE-bench](https://github.com/SWE-bench/SWE-bench) - Real GitHub issues that coding agents must resolve.
