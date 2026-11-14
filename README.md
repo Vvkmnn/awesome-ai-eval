@@ -130,6 +130,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Leaderboards
 
+- [AIHOT Model Leaderboard](https://aihot.news/leaderboard) - Compares language models across capability categories using published third-party benchmark results, with rankings and model details in Chinese.
 - [ARC Prize Leaderboard](https://arcprize.org/leaderboard) - ARC-AGI scores for frontier models and open submissions.
 - [Arena](https://arena.ai/) - Crowdsourced head-to-head model voting, formerly LMArena.
 - [CompassRank](https://rank.opencompass.org.cn/home) - OpenCompass rankings across multi-domain suites.
