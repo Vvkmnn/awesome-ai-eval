@@ -130,6 +130,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Leaderboards
 
+- [AgentBurn](https://github.com/Alex13192/agentburn-dataset) - Open, sourced dataset and leaderboard of per-task token and cost figures for AI agents, with per-field provenance.
 - [ARC Prize Leaderboard](https://arcprize.org/leaderboard) - ARC-AGI scores for frontier models and open submissions.
 - [Arena](https://arena.ai/) - Crowdsourced head-to-head model voting, formerly LMArena.
 - [CompassRank](https://rank.opencompass.org.cn/home) - OpenCompass rankings across multi-domain suites.
