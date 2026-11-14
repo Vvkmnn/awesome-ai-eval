@@ -253,6 +253,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 - [AI Prompt Quality](https://github.com/pntkrl/ai-prompt-quality) - Static prompt evaluation with a seven-dimension rubric and JSON scoring schema.
 - [Aleph Alpha Eval Framework](https://github.com/Aleph-Alpha-Research/eval-framework) - Evaluation framework with built-in benchmarks for reasoning, coding, and safety.
 - [align](https://github.com/ggrigo/align) - Human-in-the-loop evals for Claude Code that rate individual claims and archive corrections.
+- [aspera-grader-kit](https://github.com/motifplatforms/aspera-grader-kit) - Grades the Word, PowerPoint, and Excel files agents produce using file inspectors, explainable checks, and a JSON rubric.
 - [autoevals](https://github.com/braintrustdata/autoevals) - Scorers for LLM outputs, from string heuristics to model-graded factuality, in Python and TypeScript.
 - [Bloom](https://github.com/safety-research/bloom) - Agentic framework that generates behavioral evaluations of frontier models from a described behavior.
 - [ChainForge](https://github.com/ianarawjo/ChainForge) - Visual environment for comparing prompts and models and scoring responses.
