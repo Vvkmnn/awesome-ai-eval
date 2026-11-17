@@ -143,6 +143,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 - [Open Medical-LLM Leaderboard](https://huggingface.co/blog/leaderboard-medicalllm) - Hugging Face rankings on medical question answering.
 - [Scale SEAL Leaderboard](https://scale.com/leaderboard) - Expert-rated rankings for reasoning, coding, and safety.
 - [Vectara Hallucination Leaderboard](https://github.com/vectara/hallucination-leaderboard) - Ranks LLMs by how often they hallucinate when summarizing short documents.
+- [Word Spies Arena](https://wordspies.com/arena) - Elo ladder of LLMs playing a Codenames-style team word game (not affiliated) against each other.
 
 ## Platforms
 
