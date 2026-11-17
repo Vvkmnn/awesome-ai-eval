@@ -247,6 +247,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 - [Agent Stack](https://github.com/MukundaKatta/agent-stack) - Libraries for agent reliability, including snapshot tests for tool-call traces, tool-argument validation, and structured output with retry.
 - [agentest](https://github.com/srpadmanabhuni/agentest) - Offline, deterministic checks of agent OpenTelemetry traces, A2A AgentCards, and MCP tools, with no LLM judge.
+- [AgentProbe](https://github.com/chhayankjain/AgentProbe) - Fault injection and OpenTelemetry tracing for LangGraph, LangChain, and AutoGen agents, with failure-rate, recovery, and latency metrics.
 - [Agentrial](https://github.com/alepot55/agentrial) - Runs agents repeatedly, computes confidence intervals, and flags regressions in CI.
 - [agenttrace](https://github.com/luoyuctl/agenttrace) - Terminal UI for reviewing coding-agent sessions by cost, failures, latency, and diffs.
 - [AI Eval Forge](https://github.com/MukundaKatta/ai-eval-forge) - Regression harness for LLM and agent outputs using deterministic checks such as regex, token F1, and JSON validity.
