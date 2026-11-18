@@ -260,6 +260,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 - [DeepEval](https://github.com/confident-ai/deepeval) - Unit-test style metrics for hallucination, relevance, toxicity, and bias.
 - [digline](https://github.com/digline/digline) - Regression testing for LLM apps against a versioned baseline of approved scores.
 - [EvalScope](https://github.com/modelscope/evalscope) - ModelScope framework for evaluating and benchmarking LLMs, vision-language models, and generative models.
+- [EvalShift](https://github.com/evalshift/evalshift-cli) - Replays captured agent runs on a current and candidate model and reports regressions with statistical significance tests.
 - [Evidently](https://github.com/evidentlyai/evidently) - Evaluation and monitoring library for ML and LLM systems.
 - [fact-gate](https://github.com/AnonZ7/fact-gate) - Deterministic verification of AI-written text against diffs, measured facts, or prose.
 - [Harbor](https://github.com/harbor-framework/harbor) - Framework for evaluating and optimizing agents and models in containers; the official Terminal-Bench 2.0 harness.
