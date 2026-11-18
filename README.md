@@ -286,6 +286,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 ### Retrieval
 
 - [BEIR](https://github.com/beir-cellar/beir) - Benchmark suite covering dense, sparse, and hybrid retrieval tasks.
+- [Biomedical Search Benchmark](https://www.arca.inc/blog/biomedical-search-benchmark) - Compares five search APIs on 60 FDA and life-science record lookups, graded by its authors.
 - [LlamaIndex Evaluation](https://developers.llamaindex.ai/python/framework/module_guides/evaluating/) - Modules for scoring retrievers and comparing query engines.
 - [MTEB](https://github.com/embeddings-benchmark/mteb) - Embedding benchmark measuring retrieval, reranking, and similarity quality.
 - [Open RAG Eval](https://github.com/vectara/open-rag-eval) - Vectara harness with UMBRELA and AutoNuggetizer metrics that need no golden answers.
