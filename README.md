@@ -193,6 +193,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 - [AI Failure Mode Taxonomy](https://github.com/prashibadkur11-creator/ai-failure-mode-taxonomy) - Catalog of AI and LLM product failure modes with detection and mitigation for each.
 - [AlignEval](https://eugeneyan.com/writing/aligneval/) - Eugene Yan on building and aligning LLM judges.
 - [Applied LLMs](https://applied-llms.org/) - Lessons from a year of building with LLMs, with evaluation as a core practice.
+- [Attify Audited Resolution Standard](https://attify.app/standards/support-resolution) - Versioned draft standard for auditing AI support agents' claimed resolutions against help-desk records.
 - [Comparing LLMs on Real-World Retrieval](https://www.sh-reya.com/blog/needle-in-the-real-world/) - How models perform on practical retrieval tasks.
 - [Data Flywheels for LLM Applications](https://www.sh-reya.com/blog/ai-engineering-flywheel/) - Iterative data improvement for LLM systems.
 - [Demystifying Evals for AI Agents](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents) - Anthropic guide to grader types, consistency metrics, and building an agent eval suite.
