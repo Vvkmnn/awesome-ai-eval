@@ -155,6 +155,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 ### Managed
 
 - [Athina AI](https://www.athina.ai/) - Evaluation and monitoring platform with preset evals and VPC deployment.
+- [Benchmark Router](https://benchmarkrouter.newmeasure.ai/) - Runs public agent and model benchmarks with their official code on hosted models or your own harness.
 - [Braintrust](https://www.braintrust.dev/) - Evaluation and observability platform with experiments, datasets, and CI regression tests.
 - [ChatIntel](https://chatintel.ai/) - No-code toolkit for evaluating and measuring the consistency of AI output.
 - [Confident AI](https://www.confident-ai.com/) - DeepEval-backed platform for scheduled eval suites and production monitoring.
