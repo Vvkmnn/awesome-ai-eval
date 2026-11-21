@@ -242,6 +242,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 - [Garak](https://github.com/NVIDIA/garak) - NVIDIA vulnerability scanner that probes LLMs for prompt injection, leakage, and jailbreaks.
 - [Petri](https://github.com/meridianlabs-ai/inspect_petri) - Auditing agent that explores model behavior through simulated multi-turn scenarios.
 - [PyRIT](https://github.com/microsoft/PyRIT) - Microsoft toolkit for automating attack strategies against generative AI systems.
+- [Redline](https://github.com/kush0o7/Redline-Agent-Safety-Eval) - CLI that runs the same safety tests on two model versions and reports regressions, including code-graded tool injection.
 
 ### Frameworks
 
