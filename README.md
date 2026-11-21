@@ -85,6 +85,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 - [SimpleBench](https://simple-bench.com/) - Everyday reasoning questions where people still outperform frontier models.
 - [SimpleQA](https://arxiv.org/abs/2411.04368) - Short fact-seeking questions with a single indisputable answer, for measuring factuality.
 - [StructEval](https://github.com/TIGER-AI-Lab/StructEval) - Structured-output generation and conversion across 18 text and renderable formats.
+- [When AI Says No](https://github.com/ben-elhayani/ai-says-no-study) - Yes-or-no questions about apps and phones, many on recent features, with graded ChatGPT, Gemini and Claude answers.
 
 ### Long-Context
 
