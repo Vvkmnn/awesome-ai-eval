@@ -70,6 +70,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 - [ARC-AGI-3](https://arcprize.org/arc-agi/3/) - Interactive reasoning benchmark of novel game environments in which agents must discover the goals.
 - [CommonGen-Eval](https://github.com/allenai/CommonGen-Eval) - GPT-4 judged suite for constrained commonsense text generation.
 - [DyVal](https://arxiv.org/abs/2309.17167) - Dynamically generated reasoning tasks with controllable difficulty.
+- [FailBench](https://github.com/Qin-Z-x/llm-failbench) - Deterministic failure probes with mechanical scoring across 10 LLM failure classes.
 - [GDPval](https://arxiv.org/abs/2510.04374) - Economically valuable tasks built from the work of professionals in 44 occupations.
 - [GPQA](https://github.com/idavidrein/gpqa) - Graduate-level science questions written by experts and designed to resist web search.
 - [Humanity's Last Exam](https://github.com/centerforaisafety/hle) - Expert-written closed-ended questions across academic subjects.
