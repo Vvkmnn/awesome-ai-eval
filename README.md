@@ -171,6 +171,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 - [Respan](https://www.respan.ai/) - AI gateway with tracing, monitoring, red teaming, and evaluators that score test sets and production traffic.
 - [TestMu AI Agent Testing](https://www.testmuai.com/agent-testing/) - Tests chat, voice, and phone agents through simulated conversations and real calls, including their tool calls.
 - [W&B Weave](https://wandb.ai/site/evaluations/) - Evaluation toolkit with dataset versioning, scorers, and comparison dashboards.
+- [Webcite](https://webcite.co/) - API and MCP server that verifies claims in AI output against sources, with citations and verdicts.
 
 ### Self-Hosted
 
