@@ -117,6 +117,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ### Specialized
 
+- [ESGenius](https://github.com/ANGEL-NTU/ESGenius) - ESG and sustainability knowledge benchmark of multiple-choice questions, evaluated zero-shot and with retrieval.
 - [FinanceBench](https://www.patronus.ai/announcements/patronus-ai-launches-financebench-the-industrys-first-benchmark-for-llm-performance-on-financial-questions) - Questions over public company filings.
 - [FinEval](https://github.com/SUFE-AIFLM-Lab/FinEval) - Chinese financial knowledge and reasoning across regulation, accounting, and markets.
 - [FrontierMath](https://epoch.ai/frontiermath) - Epoch AI benchmark of original, exceptionally hard mathematics problems.
