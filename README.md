@@ -262,6 +262,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 - [EvalScope](https://github.com/modelscope/evalscope) - ModelScope framework for evaluating and benchmarking LLMs, vision-language models, and generative models.
 - [Evidently](https://github.com/evidentlyai/evidently) - Evaluation and monitoring library for ML and LLM systems.
 - [fact-gate](https://github.com/AnonZ7/fact-gate) - Deterministic verification of AI-written text against diffs, measured facts, or prose.
+- [Flywheel Verify](https://github.com/HarperZ9/flywheel) - Model-neutral AI evaluation gateway and verification harness producing deterministic offline-verifiable SHA-256 receipts.
 - [Harbor](https://github.com/harbor-framework/harbor) - Framework for evaluating and optimizing agents and models in containers; the official Terminal-Bench 2.0 harness.
 - [HELM](https://github.com/stanford-crfm/helm) - Stanford framework for evaluating foundation models across scenarios and metrics.
 - [Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai) - UK AI Security Institute framework for scripted evals with tool calls and model-graded scoring.
