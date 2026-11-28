@@ -191,6 +191,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 - [AI Evals for Engineers & PMs](https://maven.com/parlance-labs/evals) - Cohort course by Hamel Husain and Shreya Shankar.
 - [AI Failure Mode Taxonomy](https://github.com/prashibadkur11-creator/ai-failure-mode-taxonomy) - Catalog of AI and LLM product failure modes with detection and mitigation for each.
+- [AI Test Verification Lab](https://github.com/chernevnikolay86-wq/ai-test-verification-lab) - Runnable lab where AI-written tests pass against broken code until mutation testing catches the defects.
 - [AlignEval](https://eugeneyan.com/writing/aligneval/) - Eugene Yan on building and aligning LLM judges.
 - [Applied LLMs](https://applied-llms.org/) - Lessons from a year of building with LLMs, with evaluation as a core practice.
 - [Comparing LLMs on Real-World Retrieval](https://www.sh-reya.com/blog/needle-in-the-real-world/) - How models perform on practical retrieval tasks.
